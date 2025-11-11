@@ -3,7 +3,6 @@ import PortfolioList from "@/components/PortfolioList";
 import Slide from "@/components/Slide";
 import Image from "next/image";
 import Link from "next/link";
-import Slider from "react-slick";
 
 export default function Home() {
 
@@ -63,25 +62,25 @@ export default function Home() {
           <div className="display-flex-flow">
             <section>
               <div>
-                <Image src="/icons/trust_1.png" alt="아이콘" width={171} height={190} />
+                <Image src="/icons/trust_1.png" alt="아이콘" width={70} height={70} />
               </div>
               <p>10년 이상 축적된<br />철거 및 폐기물 처리 경험</p>
             </section>
             <section>
               <div>
-                <Image src="/icons/trust_2.png" alt="아이콘" width={210} height={123} />
+                <Image src="/icons/trust_2.png" alt="아이콘" width={70} height={70} />
               </div>
               <p>안전 지침 및 법규 준수로<br />사고 없는 시공</p>
             </section>
             <section>
               <div>
-                <Image src="/icons/trust_3.png" alt="아이콘" width={163} height={177} />
+                <Image src="/icons/trust_3.png" alt="아이콘" width={70} height={177} />
               </div>
               <p>전 지역 철거<br />및 폐기물 처리 가능</p>
             </section>
             <section>
               <div>
-                <Image src="/icons/trust_4.png" alt="아이콘" width={200} height={179} />
+                <Image src="/icons/trust_4.png" alt="아이콘" width={70} height={70} />
               </div>
               <p>무료 방문 견적<br />& 합리적 비용 제시</p>
             </section>

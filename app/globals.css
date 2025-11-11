@@ -12,6 +12,10 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     color: black;
     overflow-x: hidden;
@@ -92,6 +96,8 @@ article>div:first-of-type {
 
 header {
     position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     padding: 15px 5%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -152,6 +158,7 @@ nav>div {
     height: 100vh;
     width: 80%;
     top: 0;
+    right: 0;
     transition: 0.3s;
 }
 
@@ -200,6 +207,7 @@ nav>div>div {
 
 .nav-close {
     right: -100%;
+    overflow-x: hidden;
     z-index: 20;
 }
 
@@ -350,6 +358,11 @@ footer> :last-child {
 
 footer> :last-child>div {
     border-radius: 100%;
+}
+
+footer> :last-child>div img {
+    width: 100%;
+    height: auto;
 }
 
 footer> :last-child>div:first-of-type {

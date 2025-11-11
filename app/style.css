@@ -195,7 +195,7 @@ main>div>div .mouse_scroll span::after {
     padding-top: 50px;
 }
 
-.home-3>div>div section:not(.home-3>div >div section:last-of-type) {
+.home-3 > div > div section:not(:last-of-type) {
     border-bottom: 1px solid rgb(68, 83, 104);
     padding-bottom: 50px;
 }

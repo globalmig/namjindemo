@@ -26,12 +26,12 @@ export default function Footer() {
             <div>
                 <div>
                     <Link href="tel:010-4691-7723">
-                        <Image src="/icons/tel.png" alt="전화문의" width={70} height={70} />
+                        <Image src="/icons/tel.png" alt="전화문의" width={50} height={50} />
                     </Link>
                 </div>
                 <div>
                     <Link href="http://pf.kakao.com/_xavSHn/chat">
-                        <Image src="/icons/kakao.png" alt="카카오톡 문의" width={70} height={70} />
+                        <Image src="/icons/kakao.png" alt="카카오톡 문의" width={50} height={50} />
                     </Link>
                 </div>
             </div>
