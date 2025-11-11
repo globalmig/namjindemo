@@ -134,6 +134,12 @@ main>div>div .mouse_scroll span::after {
 .home-2 .slick-slider {
     width: 100%;
     box-sizing: border-box;
+     overflow-x: hidden;
+}
+
+.slick-list {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .home-2 .slick-slide {
