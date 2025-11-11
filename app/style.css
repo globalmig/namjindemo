@@ -1,0 +1,1206 @@
+/* home */
+
+main {
+    background-image: url("/images/main_banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main>div>div {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+main>div>div h1 {
+    margin: 10px 0 50px;
+}
+
+main>div>div>div {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+main>div>div>div button {
+    border: 1px solid #ddd;
+    padding: 12px 40px;
+}
+
+main>div>div>div button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+main>div>div>div button a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+main>div>div .mouse_scroll span {
+    display: block;
+    width: 30px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    border-radius: 23px;
+    margin: 30px auto;
+}
+
+main>div>div .mouse_scroll span::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 3px;
+    height: 8px;
+    margin: 5px auto;
+    background: #ffffff;
+    animation: mouse-pulse 2.0s ease infinite;
+}
+
+@keyframes mouse-pulse {
+    0% {
+        opacity: 1;
+        transform: translate(-0.5px, 2px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-0.5px, 30px);
+    }
+}
+
+.home-1>div {
+    text-align: center;
+    padding: 80px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-1>div h1 span {
+    color: rgb(0, 102, 255);
+}
+
+.home-1>div h3 {
+    margin: 10px 0 40px
+}
+
+.home-1>div>div img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.home-1>div>div>p:first-of-type {
+    margin-bottom: 20px;
+}
+
+.home-1>div>div>p span {
+    font-weight: bold;
+    color: rgb(0, 102, 255);
+}
+
+.home-2>div {
+    text-align: center;
+}
+
+.home-2>:first-child {
+    padding: 50px 0 70px;
+}
+
+.home-2>:last-child {
+    padding-bottom: 80px;
+}
+
+.home-2>div h1 span {
+    color: rgb(0, 102, 255);
+}
+
+.home-2>div h3 {
+    width: 90%;
+    margin: 10px auto 0;
+}
+
+.home-2 .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.slider>div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slider .slick-arrow {
+    display: none;
+    opacity: 0;
+}
+
+.home-3 {
+    background-color: rgb(4, 22, 49);
+}
+
+.home-3>div {
+    text-align: center;
+    color: white;
+}
+
+.home-3>div>div {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.home-3>div>div section {
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.home-3>div>div section:not(.home-3>div >div section:last-of-type) {
+    border-bottom: 1px solid rgb(68, 83, 104);
+    padding-bottom: 50px;
+}
+
+.home-3>div>div section div img {
+    width: 70px;
+    height: auto;
+    margin: auto;
+}
+
+.home-3>div>div section p {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.home-4 {
+    border-bottom: 1px solid #ccc;
+}
+
+.home-4>div>div>:first-child h3 {
+    color: rgb(0, 102, 255);
+}
+
+.home-4>div h1 {
+    margin: 10px 0 20px;
+}
+
+.home-4>div>div>:last-child section {
+    position: relative;
+    margin: 10px 0;
+}
+
+.home-4>div>div>:last-child section img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.home-4>div>div>:last-child section h3 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.home-5 {
+    border-top: 1px solid #dfdfdf;
+}
+
+.home-5>div h2 {
+    margin-bottom: 40px;
+}
+
+.home-5>div>div {
+    gap: 12px;
+}
+
+.home-5>div>div section {
+    width: 48%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home-5>div>div section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.home-5>div>div section h4 {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+}
+
+.home-6 {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.home-6>:first-child {
+    padding-bottom: 30px;
+}
+
+.home-6>div>div h3 {
+    color: rgb(0, 102, 255);
+}
+
+.home-6>div>div h1 {
+    margin: 10px 0 40px;
+}
+
+.home-7 {
+    background-image: url("/images/main_banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.home-7>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0;
+}
+
+.home-7>div h4 {
+    margin: 20px 0 10px;
+    background-color: rgb(0, 102, 255);
+    display: inline-block;
+}
+
+/* introduce */
+
+.introduce>div {
+    text-align: center;
+}
+
+.introduce>div>:first-child h1 {
+    color: rgb(0, 102, 255);
+}
+
+.introduce>div>:first-child h3 {
+    margin: 10px 0 30px;
+}
+
+.introduce>div>:last-child {
+    margin-top: 70px;
+    padding-top: 70px;
+    border-top: 1px solid #ddd;
+}
+
+.introduce>div>:last-child>h3 {
+    color: rgb(0, 102, 255);
+    margin-bottom: 8px;
+}
+
+.introduce>div>:last-child>h2 {
+    font-size: 2rem;
+}
+
+.introduce>div>:last-child>div {
+    margin-top: 50px;
+}
+
+.introduce>div>:last-child>div section {
+    margin: 30px 0;
+}
+
+.introduce>div>:last-child>div section div:last-of-type {
+    justify-content: left;
+    gap: 20px;
+}
+
+.introduce>div>:last-child>div section h3 {
+    color: rgb(0, 102, 255);
+    font-size: 1.3rem;
+}
+
+.introduce>div>:last-child>div section h3::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 100%;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.introduce>div>:last-child>div section p {
+    margin: auto 0;
+}
+
+/* our-work */
+
+.our-work>div>:first-child {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-work>div>:last-child section {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto 20px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.our-work>div>:last-child section:hover {
+    border: 1px solid rgb(0, 102, 255);
+}
+
+.our-work>div>:last-child section h3 {
+    color: rgb(0, 102, 255);
+}
+
+.our-work>div>:last-child section p {
+    font-weight: bold;
+    margin: 8px 0 5px;
+}
+
+.our-work>div>:last-child section ul:first-of-type {
+    margin-top: 20px;
+}
+
+.our-work>div>:last-child section ul:first-of-type li {
+    margin: 8px 0;
+}
+
+/* business */
+
+.business>:first-child>div>:first-child {
+    margin: 0 auto;
+}
+
+.business>:first-child>div>div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.business>:first-child>div>div:first-of-type {
+    order: 2;
+    margin-top: 30px;
+}
+
+.business>:first-child>div>div h2 {
+    margin-bottom: 15px;
+}
+
+.business>:first-child>div>div p {
+    color: #555;
+}
+
+.business>.business-process {
+    padding: 70px 5%;
+    background-color: #f6f6f6;
+}
+
+.business>.business-process>div {
+    text-align: center;
+    padding: 30px 5%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.business>.business-process>div>p {
+    margin: 10px 0 50px;
+}
+
+.business>.business-process>div>div>section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.business>.business-process>div>div>section>div {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business>.business-process>div>div>section img {
+    width: auto;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.business>.business-process>div>div>section:first-of-type img {
+    height: 60px;
+}
+
+.business>.business-process>div>div>section:nth-of-type(3) img {
+    height: 50px;
+}
+
+.business>.business-process>div>div>section:nth-of-type(4) img {
+    height: 60px;
+}
+
+.business>.business-process>div>div>section h3 {
+    margin: 10px 0 8px;
+}
+
+.business>.business-process>div>div>section p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.business>.business-process>div>div>div {
+    margin: -10px auto;
+    transform: rotate(90deg);
+}
+
+.business>.business-process>div>div img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.business>.business-portfolio {
+    padding: 80px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.business>.business-portfolio h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* inquire */
+
+.inquire>div {
+    position: relative;
+}
+
+.inquire>div form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inquire>div h3 {
+    margin-bottom: 20px;
+}
+
+.inquire>div .required::after {
+    content: "*";
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.inquire>div form>div {
+    margin-bottom: 50px;
+}
+
+.inquire>div input,
+.inquire>div textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f6f6f6;
+}
+
+.inquire>div form> :nth-child(2) input {
+    width: 28%;
+}
+
+.inquire>div form> :nth-child(2) p {
+    margin: auto 0;
+}
+
+.inquire>div form> :nth-child(4) ul li {
+    justify-content: left;
+    gap: 20px;
+    margin: 8px 0;
+}
+
+.inquire>div form> :nth-child(4) input {
+    width: auto;
+}
+
+.inquire>div form> :nth-child(7) h3 span {
+    font-size: 1rem;
+}
+
+.inquire>div form>button {
+    background-color: rgb(0, 102, 255);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+
+.inquire>div form>ul {
+    margin-top: 20px;
+}
+
+.inquire>div form>ul li:first-of-type {
+    font-weight: bold;
+}
+
+.inquire>div form>ul li {
+    margin: 5px 0;
+}
+
+.inquire>div form>ul li:last-of-type {
+    margin-top: 20px;
+}
+
+.inquire-isvaild {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 50;
+    border-radius: 10px;
+    padding: 50px 0 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.inquire-isvaild>div p {
+    padding: 0 30px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.inquire-isvaild>div button {
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+/* portfolio */
+
+.portfolio section {
+    width: 48%;
+    max-width: 580px;
+    margin-bottom: 40px;
+}
+
+.portfolio section>div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio section>p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.portfolio>div>button {
+    background-color: #555;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio>div>button:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.portfolio>div>button a {
+    color: white;
+}
+
+.portfolio-detail {
+    background-color: #f6f6f6;
+}
+
+.portfolio-detail>div {
+    padding: 150px 5%;
+}
+
+.portfolio-detail>div>:first-child {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.portfolio-detail>div>:first-child h2::before {
+    content: "";
+    width: 40px;
+    margin: 20px auto;
+    display: block;
+    border-top: 3px solid black;
+}
+
+.portfolio-detail>div>:nth-child(2) {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-detail>div>:nth-child(2) section {
+    margin: 40px 0;
+}
+
+.portfolio-detail>div>:nth-child(2) section>div {
+    margin: 15px 0;
+}
+
+.portfolio-detail>div>:nth-child(2) section>div>img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-detail>div>:last-child {
+    margin-top: 80px;
+}
+
+.portfolio-detail>div>:last-child>div>p {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.portfolio-detail>div>:last-child>div>p:first-of-type {
+    border-bottom: 1px solid #ccc;
+}
+
+.portfolio-detail>div>:last-child>div>p:hover {
+    background-color: #eee;
+}
+
+.portfolio-detail>div>:last-child>div>p span {
+    color: rgb(0, 102, 255);
+}
+
+.portfolio-detail>div>:last-child>button {
+    margin-top: 30px;
+    padding: 5px 25px;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+}
+
+.portfolio-detail>div>:last-child>button:hover {
+    background-color: #aaa;
+}
+
+@media screen and (min-width: 1366px) {
+
+    /* home */
+
+
+    main {
+        height: 800px;
+    }
+
+    main>div>div {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 35%;
+    }
+
+    main>div>div p {
+        font-size: 1.3rem;
+    }
+
+    main>div>div h1 {
+        font-size: 3rem;
+    }
+
+    main>div>div>div button {
+        padding: 20px 55px;
+    }
+
+    main>div>div>div button a {
+        font-size: 1.2rem;
+    }
+
+    main>div>div .mouse_scroll span {
+        width: 40px;
+        height: 65px;
+        margin: 40px auto;
+    }
+
+    .home-1>div h1 {
+        font-size: 3rem;
+    }
+
+    .home-1>div h3 {
+        font-size: 2rem;
+        margin: 10px 0 80px
+    }
+
+    .home-1>div>div img {
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .home-1>div>div>p {
+        font-size: 1.3rem;
+    }
+
+    .home-1>div>div>p:first-of-type {
+        margin: 60px 0 20px;
+    }
+
+    .home-2>:first-child {
+        padding: 50px 0 0px;
+    }
+
+    .home-2>:last-child {
+        padding-bottom: 200px;
+    }
+
+    .home-2>div h1 {
+        font-size: 3rem;
+    }
+
+    .home-2>div h3 {
+        font-size: 2rem;
+        margin: 20px auto 0px;
+    }
+
+    .slider>div img {
+        border-radius: 30px;
+    }
+
+    .home-3>:first-of-type {
+        padding: 200px 0;
+    }
+
+    .home-3>div h1 {
+        font-size: 3rem;
+    }
+
+    .home-3>div>div {
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    .home-3>div>div section {
+        width: 300px;
+        padding-top: 0px;
+    }
+
+    .home-3>div>div section:not(.home-3>div >div section:last-of-type) {
+        border-bottom: 0px;
+        border-right: 1px solid rgb(68, 83, 104);
+        padding-bottom: 0px;
+    }
+
+    .home-3>div>div section div {
+        height: 100px;
+        position: relative;
+    }
+
+    .home-3>div>div section div img {
+        width: 70px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .home-3>div>div section p {
+        font-size: 1.2rem;
+    }
+
+    .home-4 {
+        border-bottom: 0px solid #ccc;
+    }
+
+    .home-4>div>div>:first-child h3 {
+        font-size: 2rem;
+    }
+
+    .home-4>div h1 {
+        font-size: 3rem;
+        margin: 20px 0 80px;
+    }
+
+    .home-4>div>div>:last-child {
+        gap: 30px;
+    }
+
+    .home-4>div>div>:last-child section {
+        margin: 0;
+        width: 400px;
+        height: 500px;
+    }
+
+    .home-4>div>div>:last-child section:last-of-type {
+        margin-top: 50px;
+    }
+
+    .home-4>div>div>:last-child section img {
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home-4>div>div>:last-child section h3 {
+        left: 30px;
+        bottom: 30px;
+        font-size: 1.5rem;
+    }
+
+    .home-5>div h2 {
+        font-size: 3rem;
+        margin-bottom: 70px;
+    }
+
+    .home-5>div>div {
+        gap: 30px;
+    }
+
+    .home-5>div>div section {
+        width: 275px;
+        margin: auto 0;
+    }
+
+    .home-5>div>div section img {
+        border-radius: 20px;
+    }
+
+    .home-5>div>div section h4 {
+        font-size: 1.2rem;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .home-6>:first-child {
+        padding-bottom: 150px;
+    }
+
+    .home-6>div>div h3 {
+        font-size: 2rem;
+    }
+
+    .home-6>div>div h1 {
+        margin: 20px 0 70px;
+        font-size: 3rem;
+    }
+
+    .home-7 {
+        height: 700px;
+    }
+
+    .home-7>div h1 {
+        font-size: 3rem;
+    }
+
+    .home-7>div h4 {
+        font-size: 2rem;
+        margin: 20px 0 10px;
+        background-color: rgb(0, 102, 255);
+        display: inline-block;
+    }
+
+    .home-7>div p {
+        font-size: 1.8rem;
+    }
+
+    /* introduce */
+
+    .introduce>div>:first-child h1 {
+        font-size: 3rem;
+    }
+
+    .introduce>div>:first-child h3 {
+        font-size: 2rem;
+        margin: 10px 0 30px;
+    }
+
+    .introduce>div>:first-child p {
+        font-size: 1.2rem;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .introduce>div>:last-child {
+        padding-top: 150px;
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .introduce>div>:last-child>p {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .introduce>div>:last-child>h3 {
+        font-size: 2rem;
+    }
+
+    .introduce>div>:last-child>h2 {
+        font-size: 3rem;
+    }
+
+    .introduce>div>:last-child>div {
+        margin-top: 50px;
+    }
+
+    .introduce>div>:last-child>div section {
+        text-align: left;
+        margin: 45px 0;
+    }
+
+    .introduce>div>:last-child>div section h3 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .introduce>div>:last-child>div section h3::before {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 20px;
+    }
+
+    .introduce>div>:last-child>div section p {
+        font-size: 1.1rem;
+    }
+
+    /* our-work */
+
+    .our-work>div>div h1 {
+        font-size: 3rem;
+        margin-bottom: 70px;
+    }
+
+    .our-work>div>:last-child section {
+        margin: 0 0 40px;
+        padding: 40px;
+    }
+
+    .our-work>div>:last-child section h2 {
+        color: rgb(0, 102, 255);
+    }
+
+    .our-work>div>:last-child section h4 {
+        margin: 10px 0 20px;
+    }
+
+    .our-work>div>:last-child section ul {
+        margin-top: 0px;
+    }
+
+    .our-work>div>:last-child section ul li {
+        margin: 10px 0;
+        color: #555;
+    }
+
+    .our-work>div>:last-child section ul li span {
+        color: black;
+        font-weight: bold;
+    }
+
+    .our-work>div>:last-child section ul li p {
+        font-weight: 300;
+        color: #555;
+    }
+
+    .our-work>div>:last-child section ul li p::before {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background-color: #aaa;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    /* business */
+
+    .business>:first-child>div>div img {
+        border-radius: 30px;
+    }
+
+    .business>:first-child>div>div:first-of-type {
+        order: 0;
+        margin: 0px;
+        width: 550px;
+    }
+
+    .business>:first-child>div>div:last-of-type {
+        width: 500px;
+        margin: auto 0;
+    }
+
+    .business>:first-child>div>div h1 {
+        margin-bottom: 30px;
+    }
+
+    .business>:first-child>div>div p {
+        font-size: 1.2rem;
+    }
+
+    .business>.business-process {
+        padding: 150px 0;
+    }
+
+    .business>.business-process>div h1 {
+        font-size: 3rem;
+    }
+
+    .business>.business-process>div p {
+        margin: 20px 0 70px;
+        font-size: 1.2rem;
+    }
+
+    .business>.business-process>div>div {
+        display: flex;
+    }
+
+    .business>.business-process>div>div>section {
+        width: 350px;
+        height: 340px;
+        padding: 30px 20px 40px;
+    }
+
+    .business>.business-process>div>div>section h3 {
+        font-size: 1.5rem;
+        height: 65px;
+        margin: 15px 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .business>.business-process>div>div>section p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .business>.business-process>div>div>div {
+        margin: auto -12px;
+        transform: rotate(0deg);
+    }
+
+    .business>.business-portfolio {
+        margin-top: 150px;
+        padding: 0px 0 150px;
+    }
+
+    .business>.business-portfolio h1 {
+        font-size: 3rem;
+        margin-bottom: 70px;
+    }
+
+    /* inquire */
+
+    .inquire>div h3 {
+        font-size: 1.5rem;
+    }
+
+    .inquire>div form>div {
+        margin-bottom: 70px;
+    }
+
+    .inquire>div input,
+    .inquire>div textarea {
+        font-size: 1.1rem;
+        padding: 20px 15px;
+    }
+
+    .inquire>div form>button {
+        padding: 25px;
+        margin: 30px 0;
+    }
+
+    .inquire>div form>ul {
+        margin-top: 50px;
+    }
+
+    .inquire>div form>ul li:last-of-type {
+        margin-top: 50px;
+    }
+
+    .inquire>div form> :nth-child(7) h3 span {
+        font-size: 1.2rem;
+    }
+
+    /* portfolio */
+
+    .portfolio section>div img {
+        border-radius: 30px;
+    }
+
+    .portfolio section>p {
+        font-size: 1.2rem;
+    }
+
+    .portfolio>div {
+        text-align: center;
+    }
+
+    .portfolio>div>button {
+        width: 50%;
+        padding: 20px;
+        font-size: 1.2rem;
+        margin-top: 50px;
+    }
+
+    .portfolio-detail>div>:first-child {
+        margin-bottom: 150px;
+    }
+
+    .portfolio-detail>div>:first-child h2 {
+        font-size: 2rem;
+    }
+
+    .portfolio-detail>div>:nth-child(2) section {
+        margin: 80px 0;
+    }
+
+    .portfolio-detail>div>:nth-child(2) section>div {
+        margin: 30px 0;
+    }
+
+    .portfolio-detail>div>:last-child>div>p {
+        padding: 20px 0;
+        font-size: 1.1rem;
+    }
+
+    .portfolio-detail>div>:last-child>div>p span {
+        margin-right: 15px;
+    }
+
+    .portfolio-detail>div>:last-child>div>p:first-of-type {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .portfolio-detail>div>:last-child>button {
+        margin-top: 40px;
+        padding: 8px 35px;
+        font-size: 1rem;
+    }
+
+}
