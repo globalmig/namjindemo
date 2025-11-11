@@ -1,46 +1,11 @@
-'use client'
 import InquireCommon from "@/components/InquireCommon";
 import PortfolioList from "@/components/PortfolioList";
+import Slide from "@/components/Slide";
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
 export default function Home() {
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    cssEase: "ease-out",
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-        }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          centerMode: true,
-          centerPadding: '50px',
-        }
-      }
-    ]
-  };
-
-
 
   return (
     <>
@@ -88,26 +53,7 @@ export default function Home() {
           <h3>확실한 마감, 철저한 정리까지!<br />눈에 보이지 않는 부분까지 꼼꼼하게 책임집니다.</h3>
         </div>
         <div>
-          <Slider {...settings} className="slider">
-            <div>
-              <Image src="/images/slider_1.jpg" alt="image" width={1366} height={1025} />
-            </div>
-            <div>
-              <Image src="/images/slider_2.jpg" alt="image" width={1366} height={1025} />
-            </div>
-            <div>
-              <Image src="/images/slider_4.jpg" alt="image" width={1366} height={1025} />
-            </div>
-            <div>
-              <Image src="/images/slider_5.jpg" alt="image" width={1366} height={1025} />
-            </div>
-            <div>
-              <Image src="/images/slider_6.jpg" alt="image" width={1366} height={1025} />
-            </div>
-            <div>
-              <Image src="/images/slider_7.jpg" alt="image" width={1366} height={1025} />
-            </div>
-          </Slider>
+          <Slide/>
         </div>
       </article>
 

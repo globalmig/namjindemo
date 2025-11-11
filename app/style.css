@@ -131,6 +131,11 @@ main>div>div .mouse_scroll span::after {
     margin: 10px auto 0;
 }
 
+.home-2 .slick-slider {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .home-2 .slick-slide {
     padding: 0 10px;
     box-sizing: border-box;
@@ -152,10 +157,15 @@ main>div>div .mouse_scroll span::after {
 }
 
 .slick-prev {
+    left: 0px !important;
     display: none !important;
 }
 
 .slider .slick-next::before{
+    display: none !important;
+}
+
+.slider .slick-prev::before{
     display: none !important;
 }
 
@@ -675,7 +685,7 @@ main>div>div .mouse_scroll span::after {
 
 .portfolio-detail>div>:first-child {
     text-align: center;
-    margin-bottom: 100px;
+    margin: 70px 0 100px;
 }
 
 .portfolio-detail>div>:first-child h2::before {
