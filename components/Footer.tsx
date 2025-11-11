@@ -15,9 +15,9 @@ export default function Footer() {
                 <div className="display-flex-flow">
                     <ul>
                         <li>상호명: 남진철거</li>
-                        <li>대표이사 : 김창남</li>
-                        <li>사업자번호 : 415-07-75435</li>
-                        <li>주소 : 서울특별시 중랑구 공릉로 12가길 52-2(목동)</li>
+                        <li>대표이사: 김창남</li>
+                        <li>사업자번호: 415-07-75435</li>
+                        <li>주소: 서울특별시 중랑구 공릉로 12가길 52-2(목동)</li>
                     </ul>
                     <p>Copyright ©2025. 남진철거. All rights reserved.</p>
                 </div>
@@ -30,7 +30,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div>
-                    <Link href="/public">
+                    <Link href="http://pf.kakao.com/_xavSHn/chat">
                         <Image src="/icons/kakao.png" alt="카카오톡 문의" width={70} height={70} />
                     </Link>
                 </div>

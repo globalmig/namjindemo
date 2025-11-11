@@ -48,7 +48,7 @@ export default function PortfolioList() {
                     {isPathnameBusiness ? <button>
                         <Link href={`/portfolio/${pathCategory}`}>더보기</Link>
                     </button>
-                        : <Pagination dataCount={dataCount} dataPerPage={dataPerPage} setStartPage={setStartPage} currentPage={1} />
+                        : <Pagination dataCount={dataCount} dataPerPage={dataPerPage} setStartPage={setStartPage}/>
                     }
                 </div>
             </div>

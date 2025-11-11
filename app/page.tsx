@@ -69,7 +69,7 @@ export default function Home() {
             <h1>왜 <span>남진철거</span>일까요?</h1>
             <h3>남진철거는 다양한 현장 경험과 전문성을 가지고 있습니다.</h3>
             <div>
-              <Image src="/images/demolition_1.jpg" alt="남진철거 소개" width={1366} height={250} />
+              <Image src="/images/demolition_1.png" alt="남진철거 소개" width={1366} height={250} />
             </div>
             <p>
               상가(카페, 식당, 사무실, 술집, 미용실, 네일샵, 헬스장, 병원 등)부터<br />주거공간(아파트, 주택, 빌라)에 이르기까지 <span>인테리어 내부 철거 작업</span>을 전문적으로 수행합니다.
@@ -161,13 +161,17 @@ export default function Home() {
             <div className="display-flex-flow">
               <section>
                 <Link href="/business/commercial">
-                  <Image src="/images/핵심분야_내부철거.jpg" alt="인테리어 내부 철거" width={500} height={300} />
+                  <div>
+                    <Image src="/images/핵심분야_내부철거.jpg" alt="인테리어 내부 철거" width={1000} height={800} />
+                  </div>
                 </Link>
                 <h3>인테리어 내부 철거</h3>
               </section>
               <section>
                 <Link href="/business/waste">
-                  <Image src="/images/핵심분야_폐기물처리.jpg" alt="폐기물 처리" width={500} height={300} />
+                  <div>
+                    <Image src="/images/핵심분야_폐기물처리.jpg" alt="폐기물 처리" width={1000} height={800} />
+                  </div>
                 </Link>
                 <h3>폐기물 처리</h3>
               </section>
@@ -184,25 +188,33 @@ export default function Home() {
           <div className="display-flex-flow">
             <section>
               <Link href="/business/commercial">
-                <Image src="/images/상가철거.jpg" alt="상가 철거" width={500} height={300} />
+                <div>
+                  <Image src="/images/상가철거.jpg" alt="상가 철거" width={500} height={300} />
+                </div>
               </Link>
               <h4>상가철거</h4>
             </section>
             <section>
               <Link href="/business/residential">
-                <Image src="/images/아파트철거.jpg" alt="아파트/주택 철거" width={500} height={300} />
+                <div>
+                  <Image src="/images/아파트철거.jpg" alt="아파트/주택 철거" width={500} height={300} />
+                </div>
               </Link>
               <h4>아파트/주택철거</h4>
             </section>
             <section>
               <Link href="/business/waste">
-                <Image src="/images/폐기물처리.jpg" alt="폐기물 철거" width={500} height={300} />
+                <div>
+                  <Image src="/images/폐기물처리.jpg" alt="폐기물 철거" width={500} height={300} />
+                </div>
               </Link>
               <h4>폐기물처리</h4>
             </section>
             <section>
               <Link href="/business/restoration">
-                <Image src="/images/원상복구공사.jpg" alt="원상복구공사" width={500} height={300} />
+                <div>
+                  <Image src="/images/원상복구공사.jpg" alt="원상복구공사" width={500} height={300} />
+                </div>
               </Link>
               <h4>원상복구공사</h4>
             </section>

@@ -210,7 +210,6 @@ export default function InquireForm() {
                 </div> :
                     fileVaild ? <div className="inquire-isvaild">
                         <div>
-                            {/* 조건없이 되는지 확인 필요 */}
                             {fileVaild && <p>JPG 파일만 업로드 가능하며, 용량은 200KB이하이어야 합니다.</p>}
                             <button onClick={() => setFileVaild(false)}>확인</button>
                         </div>

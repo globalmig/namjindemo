@@ -183,7 +183,6 @@ export const PortfolioData = [
             "/images/portfolio/I_ing_1.jpg",
             "/images/portfolio/I_ing_2.jpg",
         ],
-        end: []
     },
     {
         id: 10,
@@ -322,7 +321,5 @@ export const PortfolioData = [
             "/images/portfolio/R_ing_3.jpg",
             "/images/portfolio/R_ing_4.jpg",
         ],
-        end: [
-        ]
     },
 ];

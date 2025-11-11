@@ -2,7 +2,6 @@ import CategoryBanner from "@/components/CategoryBanner";
 import InquireCommon from "@/components/InquireCommon";
 
 export default function IntroducePage() {
-    // 회사 소개 및 연혁
     return (
         <>
             <CategoryBanner />

@@ -287,6 +287,10 @@ nav>div>div {
     cursor: pointer;
 }
 
+.pagination button img {
+    cursor: pointer;
+}
+
 .pagination button p {
     font-size: 1.2rem;
 }
