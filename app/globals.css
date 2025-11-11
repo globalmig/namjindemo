@@ -103,15 +103,18 @@ header>div {
     margin: 0 auto;
 }
 
-header>div>h2 {
+header>div>:first-child img {
     margin: auto 0;
+    width: 50px;
+    height: auto;
+    filter: brightness(0) invert(1);
 }
 
 header>div>h2 a {
     color: white;
 }
 
-header>div>div>:last-child {
+header>div>:nth-child(2)>:last-child {
     cursor: pointer;
     margin: auto 0;
 }
@@ -125,8 +128,8 @@ header nav>ul>li>a {
     border-bottom: 1px solid #ccc;
 }
 
-.header-scroll>div>h2 a {
-    color: black;
+.header-scroll>div>:first-child a img {
+    filter: brightness(1) invert(0);
 }
 
 .header-scroll nav>ul>li>a {

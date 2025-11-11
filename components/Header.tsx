@@ -42,9 +42,11 @@ export default function Header() {
 
                 <div className="display-flex">
 
-                    <h2>
-                        <Link href='/'>남진철거</Link>
-                    </h2>
+                    <div>
+                        <Link href='/'>
+                        <Image src="/icons/logo.png" alt="홈으로" width={50} height={50}/>
+                        </Link>
+                    </div>
 
                     <div className="display-flex">
                         <nav>
