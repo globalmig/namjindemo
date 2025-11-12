@@ -2,7 +2,7 @@ export const PortfolioData = [
     {
         id: 1,
         name: "주택 인테리어 내부 철거",
-        category: "아파트/주택 인테리어 내부 철거 전/후",
+        category: "아파트/주택 내부 철거 전/후",
         url: "residential",
         thumnail: "/images/portfolio/A_before_1.jpg",
         before: [
@@ -26,7 +26,7 @@ export const PortfolioData = [
     {
         id: 2,
         name: "편의점 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/B_before_1.jpg",
         before: [
@@ -47,7 +47,7 @@ export const PortfolioData = [
     {
         id: 3,
         name: "아파트 인테리어 내부 철거",
-        category: "아파트/주택 인테리어 내부 철거 전/후",
+        category: "아파트/주택 내부 철거 전/후",
         url: "residential",
         thumnail: "/images/portfolio/C_before_1.jpg",
         before: [
@@ -69,7 +69,7 @@ export const PortfolioData = [
     {
         id: 4,
         name: "식당 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/D_before_1.jpg",
         before: [
@@ -89,7 +89,7 @@ export const PortfolioData = [
     {
         id: 5,
         name: "휴대폰 매장 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/E_before_1.jpg",
         before: [
@@ -107,7 +107,7 @@ export const PortfolioData = [
     {
         id: 6,
         name: "미용실 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/F_before_1.jpg",
         before: [
@@ -128,7 +128,7 @@ export const PortfolioData = [
     {
         id: 7,
         name: "아파트 인테리어 내부 철거",
-        category: "아파트/주택 인테리어 내부 철거 전/후",
+        category: "아파트/주택 내부 철거 전/후",
         url: "residential",
         thumnail: "/images/portfolio/G_before_1.jpg",
         before: [
@@ -150,7 +150,7 @@ export const PortfolioData = [
     {
         id: 8,
         name: "빌라 인테리어 내부 철거",
-        category: "아파트/주택 인테리어 내부 철거 전/후",
+        category: "아파트/주택 내부 철거 전/후",
         url: "residential",
         thumnail: "/images/portfolio/H_before_1.jpg",
         before: [
@@ -171,7 +171,7 @@ export const PortfolioData = [
     {
         id: 9,
         name: "헬스장 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/I_before_1.jpg",
         before: [
@@ -187,7 +187,7 @@ export const PortfolioData = [
     {
         id: 10,
         name: "노래방 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/K_before_1.jpg",
         before: [
@@ -209,7 +209,7 @@ export const PortfolioData = [
     {
         id: 11,
         name: "술집 인테리어 내부 철거",
-        category: "상가 인테리어 내부 철거 전/후",
+        category: "상가 내부 철거 전/후",
         url: "commercial",
         thumnail: "/images/portfolio/L_end_1.jpg",
         before: [
@@ -230,7 +230,7 @@ export const PortfolioData = [
     {
         id: 12,
         name: "아파트 인테리어 내부 철거",
-        category: "아파트/주택 인테리어 내부 철거 전/후",
+        category: "아파트/주택 내부 철거 전/후",
         url: "residential",
         thumnail: "/images/portfolio/M_before_1.jpg",
         before: [
@@ -313,13 +313,152 @@ export const PortfolioData = [
         category: "폐기물처리",
         url: "waste",
         thumnail: "/images/portfolio/R_ing_4.jpg",
-        before: [
-        ],
         ing: [
             "/images/portfolio/R_ing_1.jpg",
             "/images/portfolio/R_ing_2.jpg",
             "/images/portfolio/R_ing_3.jpg",
             "/images/portfolio/R_ing_4.jpg",
+        ],
+    },
+    {
+        id: 18,
+        name: "미용실 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구1_end_1.jpg",
+        before: [
+            "/images/portfolio/F_before_1.jpg",
+            "/images/portfolio/복구1_before_3.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구1_before_2.jpg",
+            "/images/portfolio/복구1_end_1.jpg"
+        ]
+    },
+    {
+        id: 19,
+        name: "식당 인테리어 내부 철거",
+        category: "상가 내부 철거 전/후",
+        url: "commercial",
+        thumnail: "/images/portfolio/T_before_1.jpg",
+        before: [
+            "/images/portfolio/T_before_1.jpg",
+            "/images/portfolio/T_before_2.jpg",
+        ],
+        ing: [
+            "/images/portfolio/T_ing_1.jpg",
+            "/images/portfolio/T_ing_2.jpg",
+            "/images/portfolio/T_ing_3.jpg",
+        ],
+        end: [
+            "/images/portfolio/T_end_1.jpg",
+            "/images/portfolio/T_end_2.jpg",
+        ]
+    },
+    {
+        id: 20,
+        name: "사무실 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구3_end_1.jpg",
+        before: [
+            "/images/portfolio/복구3_before_1.jpg",
+            "/images/portfolio/복구3_before_2.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구3_end_1.jpg"
+        ]
+    },
+    {
+        id: 21,
+        name: "사무실 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구4_end_1.jpg",
+        before: [
+            "/images/portfolio/복구4_before_1.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구4_before_2.jpg",
+            "/images/portfolio/복구4_before_3.jpg",
+            "/images/portfolio/복구4_end_1.jpg"
+        ]
+    }
+    ,
+    {
+        id: 22,
+        name: "노래방 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구5_end_1.jpg",
+        before: [
+            "/images/portfolio/K_ing_1.jpg",
+            "/images/portfolio/복구5_before_2.jpg",
+            "/images/portfolio/K_before_3.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구5_end_1.jpg"
+        ]
+    }
+    ,
+    {
+        id: 23,
+        name: "편의점 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구6_end_1.jpg",
+        before: [
+            "/images/portfolio/복구6_before_1.jpg",
+            "/images/portfolio/복구6_before_2.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구6_end_1.jpg"
+        ]
+    }
+    ,
+    {
+        id: 24,
+        name: "식당 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구7_end_1.jpg",
+        before: [
+            "/images/portfolio/D_before_2.jpg",
+        ],
+        end: [
+            "/images/portfolio/D_ing_1.jpg",
+            "/images/portfolio/D_end_1.jpg",
+            "/images/portfolio/복구7_end_1.jpg"
+        ]
+    },
+    {
+        id: 25,
+        name: "휴대폰 매장 원상복구공사",
+        category: "원상복구공사",
+        url: "restoration",
+        thumnail: "/images/portfolio/복구8_end_1.jpg",
+        before: [
+            "/images/portfolio/E_before_2.jpg",
+            "/images/portfolio/E_ing_1.jpg",
+        ],
+        end: [
+            "/images/portfolio/복구8_end_1.jpg"
+        ]
+    },
+    {
+        id: 26,
+        name: "상가 인테리어 내부 철거",
+        category: "상가 내부 철거 전/후",
+        url: "commercial",
+        thumnail: "/images/portfolio/S_before_1.jpg",
+        before: [
+            "/images/portfolio/S_before_1.jpg",
+        ],
+        ing: [
+            "/images/portfolio/S_ing_1.jpg",
+            "/images/portfolio/S_ing_4.jpg",
+            "/images/portfolio/S_ing_2.jpg",
+            "/images/portfolio/S_ing_3.jpg",
         ],
     },
 ];

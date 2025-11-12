@@ -1,7 +1,7 @@
 /* home */
 
 main {
-    background-image: url("/images/main_banner.jpg");
+    background-image: url("/images/main_banner_1.jpg");
     background-size: cover;
     width: 100%;
     height: 700px;
@@ -134,7 +134,7 @@ main>div>div .mouse_scroll span::after {
 .home-2 .slick-slider {
     width: 100%;
     box-sizing: border-box;
-     overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .slick-list {
@@ -167,11 +167,11 @@ main>div>div .mouse_scroll span::after {
     display: none !important;
 }
 
-.slider .slick-next::before{
+.slider .slick-next::before {
     display: none !important;
 }
 
-.slider .slick-prev::before{
+.slider .slick-prev::before {
     display: none !important;
 }
 
@@ -195,7 +195,7 @@ main>div>div .mouse_scroll span::after {
     padding-top: 50px;
 }
 
-.home-3 > div > div section:not(:last-of-type) {
+.home-3>div>div section:not(:last-of-type) {
     border-bottom: 1px solid rgb(68, 83, 104);
     padding-bottom: 50px;
 }
@@ -273,6 +273,9 @@ main>div>div .mouse_scroll span::after {
 .home-5>div>div section div {
     overflow: hidden;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-5>div>div section img {
@@ -311,10 +314,10 @@ main>div>div .mouse_scroll span::after {
 }
 
 .home-7 {
-    background-image: url("/images/main_banner.jpg");
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
@@ -330,10 +333,52 @@ main>div>div .mouse_scroll span::after {
     padding: 0;
 }
 
+.home-7>div h1 {
+    font-size: 1.8rem;
+}
+
 .home-7>div h4 {
     margin: 20px 0 10px;
     background-color: rgb(0, 102, 255);
     display: inline-block;
+}
+
+.commercial {
+    background-image: url("/images/main_banner_1.jpg");
+    height: 700px;
+}
+
+.home-7.residential {
+    background-image: url("/images/main_banner_2.jpg");
+}
+
+.home-7.waste {
+    background-image: url("/images/main_banner_3.jpg");
+}
+
+.home-7.restoration {
+    background-image: url("/images/main_banner_4.jpg");
+}
+
+.home-7>div>ul {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: left;
+}
+
+.home-7>div>ul li {
+    margin: 10px 0;
+}
+
+.home-7>div>ul li:last-of-type {
+    margin-top: 15px;
+}
+
+.home-7>div>ul li span {
+    font-weight: bold;
 }
 
 /* introduce */
@@ -838,7 +883,7 @@ main>div>div .mouse_scroll span::after {
         border-radius: 30px;
     }
 
-    .home-3>:first-of-type {
+    .home-3>:first-child {
         padding: 200px 0;
     }
 
@@ -900,16 +945,16 @@ main>div>div .mouse_scroll span::after {
     .home-4>div>div>:last-child section {
         margin: 0;
         width: 400px;
-        height: 500px;
+        height: 550px;
     }
 
     .home-4>div>div>:last-child section:last-of-type {
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .home-4>div>div>:last-child section div {
         border-radius: 30px;
-        height: 500px;
+        height: 550px;
     }
 
     .home-4>div>div>:last-child section img {
@@ -930,12 +975,8 @@ main>div>div .mouse_scroll span::after {
         margin-bottom: 70px;
     }
 
-    .home-5>div>div {
-        gap: 30px;
-    }
-
     .home-5>div>div section {
-        width: 275px;
+        width: 285px;
         margin: auto 0;
     }
 
@@ -945,6 +986,8 @@ main>div>div .mouse_scroll span::after {
 
     .home-5>div>div section img {
         border-radius: 20px;
+        height: 250px;
+        width: auto;
     }
 
     .home-5>div>div section h4 {
@@ -968,6 +1011,30 @@ main>div>div .mouse_scroll span::after {
 
     .home-7 {
         height: 700px;
+    }
+
+    .home-7.commercial {
+        height: 900px;
+    }
+
+    .home-7>div>ul {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        text-align: left;
+    }
+
+    .home-7>div>ul li {
+        margin: 20px 0;
+        font-size: 1.2rem;
+    }
+
+    .home-7>div>ul li:last-of-type {
+        margin-top: 15px;
     }
 
     .home-7>div h1 {
@@ -1097,8 +1164,13 @@ main>div>div .mouse_scroll span::after {
 
     /* business */
 
+    .business>:first-child {
+        padding: 150px 0 230px
+    }
+
     .business>:first-child>div>div img {
         border-radius: 30px;
+        width: 600px;
     }
 
     .business>:first-child>div>div:first-of-type {
@@ -1114,6 +1186,7 @@ main>div>div .mouse_scroll span::after {
 
     .business>:first-child>div>div h1 {
         margin-bottom: 30px;
+        font-size: 2.3rem;
     }
 
     .business>:first-child>div>div p {

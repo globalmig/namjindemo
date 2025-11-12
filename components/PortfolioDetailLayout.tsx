@@ -9,6 +9,7 @@ export default function PortfolioLayout() {
 
     const pathname = usePathname();
     const wastePathname = pathname.startsWith("/portfolio/waste");
+    const restorationPathname = pathname.startsWith("/portfolio/restoration");
     const params = useParams();
     const { category, id } = params;
     const detailId = Number(id);
@@ -70,7 +71,29 @@ export default function PortfolioLayout() {
                                 </div>
                             )}
                         </section>
-                        :
+                        : restorationPathname ?
+                        <>
+                            {detail.before && <section>
+                                <div>
+                                    <Image src="/images/restoration_before.jpg" alt="원상복구 전 모습" width={1366} height={200} />
+                                </div>
+                                {detail.before.map((d, index) =>
+                                    <div key={index}>
+                                        <Image src={d} alt={`원상복구 전 모습${index}`} width={1366} height={1000} />
+                                    </div>
+                                )}
+                            </section>}
+                            {detail.end && <section>
+                                <div>
+                                    <Image src="/images/restoration_after.jpg" alt="원상복구 진행" width={1366} height={200} />
+                                </div>
+                                {detail.end.map((d, index) =>
+                                    <div key={index}>
+                                        <Image src={d} alt={`원상복구 진행${index}`} width={1366} height={1000} />
+                                    </div>
+                                )}
+                            </section>}
+                        </> :
                         <>
                             {detail.before && <section>
                                 <div>

@@ -14,10 +14,10 @@ export default function Footer() {
                 </div>
                 <div className="display-flex-flow">
                     <ul>
-                        <li>상호명: 남진철거</li>
-                        <li>대표이사: 김창남</li>
-                        <li>사업자번호: 415-07-75435</li>
-                        <li>주소: 서울특별시 중랑구 공릉로 12가길 52-2(목동)</li>
+                        <li>회사명: 남진철거 | 사업자등록번호: 415-07-75435</li>
+                        <li>본사주소 : 서울특별시 중랑구 공릉로 12가길 52-2(묵동)</li>
+                        <li>전화번호 : 010-4691-7723</li>
+                        <li>이메일 : suk48555@naver.com</li>
                     </ul>
                     <p>Copyright ©2025. 남진철거. All rights reserved.</p>
                 </div>

@@ -1,5 +1,6 @@
 import InquireCommon from "@/components/InquireCommon";
 import PortfolioList from "@/components/PortfolioList";
+import Service from "@/components/Service";
 import Slide from "@/components/Slide";
 import Image from "next/image";
 import Link from "next/link";
@@ -88,13 +89,11 @@ export default function Home() {
         </div>
       </article>
 
-      <article className="home-7">
-        <div>
-          <h1>안심하고 맡기는<br />폐업 지원금 서비스</h1>
-          <h4>소상공인 폐업 지원금 서류 작성부터 제출까지!</h4>
-          <p>어렵고 복잡한 절차 없이 논스톱으로 빠르고 편리하게 도와드립니다.</p>
-        </div>
-      </article>
+      <Service
+      clasName="commercial"
+      title="안심하고 맡기는<br />폐업 지원금 서비스"
+      subTitle="소상공인 폐업 지원금 서류 작성부터 제출까지!"
+      content="어렵고 복잡한 절차 없이 논스톱으로 빠르고 편리하게 도와드립니다."/>
 
       <article className="home-4">
         <div>

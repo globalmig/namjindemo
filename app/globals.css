@@ -230,7 +230,7 @@ nav>div>div {
 .category-banner {
     background-size: cover;
     width: 100%;
-    height: 270px;
+    height: 300px;
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
@@ -499,7 +499,7 @@ footer> :last-child>div:first-of-type {
     }
 
     .inquire-section>div h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .inquire-section>div button {

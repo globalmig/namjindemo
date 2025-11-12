@@ -81,11 +81,11 @@ export default function Header() {
                                 <ul>
                                     {Object.entries(CATEGORY_MAP).map(([key, c]) => (
                                         <li key={key}>
-                                            <div className="display-flex">
+                                            <div className="display-flex" onClick={() => setOpenMenu(openMenu === key ? null : key)}>
                                                 {c.categories && c.categories.length > 0 ? (
                                                     <>
                                                         <p>{c.title}</p>
-                                                        <div  onClick={() => setOpenMenu(openMenu === key ? null : key)}>
+                                                        <div>
                                                             <Image
                                                                 src="/icons/nav_sub.png"
                                                                 alt="서브메뉴 열기"

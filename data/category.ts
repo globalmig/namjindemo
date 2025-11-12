@@ -3,7 +3,7 @@ export const CATEGORY_MAP: { [key: string]: { title: string; categories?: {name:
         title: '회사소개',
         categories: [
             {name: "회사소개 및 연혁", url: "introduce"},
-            {name: "진행한 굵직한 현장 소개", url: "our-work"}
+            {name: "현장 소개", url: "our-work"}
         ],
         banner: "/images/banner_company.jpg",
     },
@@ -20,9 +20,10 @@ export const CATEGORY_MAP: { [key: string]: { title: string; categories?: {name:
     portfolio: {
         title: '시공사례',
         categories: [
-            {name: "상가 인테리어 내부 철거 전/후", url: "commercial"},
-            {name: "아파트/주택 인테리어 내부 철거 전/후", url: "residential"},
+            {name: "상가 내부 철거 전/후", url: "commercial"},
+            {name: "아파트/주택 내부 철거 전/후", url: "residential"},
             {name: "폐기물처리", url: "waste"},
+            {name: "원상복구공사", url: "restoration"},
         ],
         banner: "/images/banner_portfolio.jpg",
     },
