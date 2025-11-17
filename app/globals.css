@@ -270,7 +270,7 @@ nav>div>div {
 }
 
 .business-process>div>div>section>div {
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,28 +278,29 @@ nav>div>div {
 
 .business-process>div>div>section img {
     width: auto;
-    height: 70px;
+    height: 40px;
     margin: 0 auto;
 }
 
 .business-process>div>div>section:first-of-type img {
-    height: 60px;
+    height: 40px;
 }
 
 .business-process>div>div>section:nth-of-type(3) img {
-    height: 50px;
+    height: 30px;
 }
 
 .business-process>div>div>section:nth-of-type(4) img {
-    height: 60px;
+    height: 40px;
 }
 
 .business-process>div>div>section:last-of-type img {
-    height: 60px;
+    height: 40px;
 }
 
 .business-process>div>div>section h3 {
     margin: 10px 0 8px;
+    font-size: 1.1rem;
 }
 
 .business-process>div>div>section p {
@@ -629,7 +630,27 @@ footer> :last-child>div:first-of-type {
     .business-process>div>div>section {
         width: 350px;
         height: 340px;
-        padding: 30px 20px 40px;
+        padding: 40px 20px 40px;
+    }
+
+    .business-process>div>div>section img {
+        height: 70px;
+    }
+
+    .business-process>div>div>section:first-of-type img {
+        height: 60px;
+    }
+
+    .business-process>div>div>section:nth-of-type(3) img {
+        height: 50px;
+    }
+
+    .business-process>div>div>section:nth-of-type(4) img {
+        height: 50px;
+    }
+
+    .business-process>div>div>section:last-of-type img {
+        height: 50px;
     }
 
     .business-process>div>div>section h3 {
