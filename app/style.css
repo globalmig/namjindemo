@@ -85,7 +85,7 @@ main>div>div .mouse_scroll span::after {
     margin: 0 auto;
 }
 
-.home-1>div h1 span {
+.home-1>div h1 span, .home-1>div h3 span{
     color: rgb(0, 102, 255);
 }
 
@@ -393,6 +393,10 @@ main>div>div .mouse_scroll span::after {
 
 /* introduce */
 
+.introduce {
+    border-bottom: 1px solid #ddd;
+}
+
 .introduce>div {
     text-align: center;
 }
@@ -405,40 +409,30 @@ main>div>div .mouse_scroll span::after {
     margin: 10px 0 30px;
 }
 
-.introduce>div>:last-child {
-    margin-top: 70px;
-    padding-top: 70px;
-    border-top: 1px solid #ddd;
-}
-
-.introduce>div>:last-child>h3 {
+.history>div h3 {
     color: rgb(0, 102, 255);
     margin-bottom: 8px;
 }
 
-.introduce>div>:last-child>h2 {
+.history>div h2 {
     font-size: 2rem;
 }
 
-.introduce>div>:last-child>div {
-    margin-top: 50px;
-}
-
-.introduce>div>:last-child>div section {
+.history>div section {
     margin: 30px 0;
 }
 
-.introduce>div>:last-child>div section div:last-of-type {
+.history>div section div:last-of-type {
     justify-content: left;
     gap: 20px;
 }
 
-.introduce>div>:last-child>div section h3 {
+.history>div section h3 {
     color: rgb(0, 102, 255);
     font-size: 1.3rem;
 }
 
-.introduce>div>:last-child>div section h3::before {
+.history>div section h3::before {
     content: '';
     display: inline-block;
     width: 5px;
@@ -450,7 +444,7 @@ main>div>div .mouse_scroll span::after {
     margin-bottom: 10px;
 }
 
-.introduce>div>:last-child>div section p {
+.history>div section p {
     margin: auto 0;
 }
 
@@ -955,7 +949,7 @@ main>div>div .mouse_scroll span::after {
     }
 
     .home-1>div>div>p {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .home-1>div>div>p:first-of-type {
@@ -1174,52 +1168,46 @@ main>div>div .mouse_scroll span::after {
     }
 
     .introduce>div>:first-child p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         width: 700px;
         margin: 0 auto;
     }
 
-    .introduce>div>:last-child {
-        padding-top: 150px;
-        margin-top: 150px;
+    .history {
         text-align: left;
     }
 
-    .introduce>div>:last-child>p {
+    .history p {
         margin-bottom: 10px;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
-    .introduce>div>:last-child>h3 {
+    .history>div h3 {
         font-size: 2rem;
     }
 
-    .introduce>div>:last-child>h2 {
+    .history>div h2 {
         font-size: 3rem;
     }
 
-    .introduce>div>:last-child>div {
-        margin-top: 50px;
-    }
-
-    .introduce>div>:last-child>div section {
+    .history>div section {
         text-align: left;
         margin: 45px 0;
     }
 
-    .introduce>div>:last-child>div section h3 {
+    .history>div section h3 {
         font-size: 1.5rem;
         margin: 10px 0;
     }
 
-    .introduce>div>:last-child>div section h3::before {
+    .history>div section h3::before {
         width: 10px;
         height: 10px;
         margin-bottom: 20px;
     }
 
-    .introduce>div>:last-child>div section p {
-        font-size: 1.1rem;
+    .history>div section p {
+        font-size: 1.3rem;
     }
 
     /* our-work */
