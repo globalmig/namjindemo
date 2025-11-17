@@ -647,9 +647,9 @@ footer> :last-child>div:first-of-type {
     }
 
     .business-process>div>div>section:last-of-type ul li:last-of-type {
-    padding: 15px 8px;
-    font-size: 0.9rem;
-}
+        padding: 15px 8px;
+        font-size: 0.9rem;
+    }
 
     .business-process>div>div>div {
         margin: auto -12px;
@@ -657,14 +657,18 @@ footer> :last-child>div:first-of-type {
     }
 
     .business-process>div>div img {
-    width: 40px;
-    height: 40px;
-}
+        width: 40px;
+        height: 40px;
+    }
 
     /* inquire-section */
 
     .inquire-section {
         height: 600px;
+    }
+
+    .inquire-section.inquire-surpport {
+        height: 650px;
     }
 
     .inquire-section>div h1 {
