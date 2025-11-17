@@ -635,12 +635,13 @@ main>div>div .mouse_scroll span::after {
 
 .surpport-2>div>div section>div img {
     width: auto;
-    height: 65px;
+    height: 45px;
     margin: 0 auto 15px;
 }
 
 .surpport-2>div>div section h3 {
     margin-bottom: 10px;
+     font-size: 1.1rem;
 }
 
 /* business */
@@ -1351,6 +1352,15 @@ main>div>div .mouse_scroll span::after {
 
     .surpport-2>div>div section {
         padding: 50px;
+    }
+
+    .surpport-2>div>div section>div img {
+        height: 65px;
+    }
+
+    .surpport-2>div>div section h3 {
+        margin-top: 25px;
+        font-size: 1.2rem;
     }
 
     /* business */
