@@ -102,12 +102,17 @@ main>div>div .mouse_scroll span::after {
 }
 
 .home-1>div>div>p:first-of-type {
-    margin-bottom: 20px;
+    margin: 40px 0 20px;
 }
 
 .home-1>div>div>p span {
     font-weight: bold;
     color: rgb(0, 102, 255);
+}
+
+.home-2 {
+    background-color: #f7f7f8;
+    padding-top: 20px;
 }
 
 .home-2>div {
@@ -122,13 +127,13 @@ main>div>div .mouse_scroll span::after {
     padding-bottom: 80px;
 }
 
-.home-2>div h1 span {
-    color: rgb(0, 102, 255);
-}
-
 .home-2>div h3 {
     width: 90%;
-    margin: 10px auto 0;
+    margin: 25px auto 0;
+}
+
+.home-2>div h3 span {
+    color: rgb(0, 102, 255);
 }
 
 .home-2 .slick-slider {
@@ -343,7 +348,7 @@ main>div>div .mouse_scroll span::after {
     display: inline-block;
 }
 
-.commercial {
+.home-7.commercial {
     background-image: url("/images/main_banner_1.jpg");
     height: 700px;
 }
@@ -358,6 +363,11 @@ main>div>div .mouse_scroll span::after {
 
 .home-7.restoration {
     background-image: url("/images/main_banner_4.jpg");
+}
+
+.home-7.with-namjin {
+    background-image: url("/images/main_banner_5.jpg");
+    height: 500px;
 }
 
 .home-7>div>ul {
@@ -482,6 +492,163 @@ main>div>div .mouse_scroll span::after {
     margin: 8px 0;
 }
 
+/* surpport */
+
+.surpport-1>div>:first-child {
+    text-align: center;
+}
+
+.surpport-1>div>:first-child>h1 {
+    font-size: 1.8rem;
+}
+
+.surpport-1>div>:first-child>h2 {
+    margin: 30px 0 50px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.surpport-1>div>:first-child>h2 span {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    padding: 1px 8px;
+    border-radius: 5px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+.surpport-1>div>:first-child>div {
+    gap: 20px;
+}
+
+.surpport-1>div>:first-child>div>div {
+    margin: auto;
+}
+
+.surpport-1>div>:first-child>div>div>div {
+    width: 60%;
+}
+
+.surpport-1>div>:first-child>div>div>div img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.surpport-1>div>:first-child>div>div>h1 {
+    margin-top: auto;
+    color: rgb(0, 102, 255);
+    font-size: 4rem;
+}
+
+.surpport-1>div>:first-child>div>div>h1 span {
+    font-size: 2rem;
+}
+
+.surpport-1>div>:first-child>div>div>h2 span {
+    color: rgb(0, 102, 255);
+}
+
+.surpport-1>div>:first-child>div>div>h3 {
+    margin-top: 20px;
+}
+
+.surpport-1>div>:first-child>div>div h3 span {
+    position: relative;
+}
+
+.surpport-1>div>:first-child>div>div h3 span::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    display: block;
+    left: 0;
+    bottom: 2px;
+    background-color: rgb(255, 234, 40);
+    z-index: -1;
+}
+
+.surpport-1>div>:last-child {
+    margin-top: 50px;
+}
+
+.surpport-1>div>:last-child>div section {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.surpport-1>div>:last-child>div section:hover {
+    border: 1px solid rgb(0, 102, 255);
+}
+
+.surpport-1>div>:last-child>div section h2 {
+    font-size: 1.2rem;
+}
+
+.surpport-1>div>:last-child>div section>ul {
+    margin-top: 20px;
+}
+
+.surpport-1>div>:last-child>div section>ul li {
+    margin: 8px 0;
+}
+
+.surpport-1>div>:last-child>div section>ul li span {
+    font-weight: bold;
+}
+
+.surpport-1>div>:last-child>div section>ul li:last-of-type {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.surpport-1>div>:last-child>div section>ul li img {
+    width: 20px;
+    height: auto;
+}
+
+.surpport-1>div>:last-child>:last-child {
+    text-align: center;
+}
+
+.surpport-2>div>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.surpport-2>div>div section {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.surpport-2>div>div section:hover {
+    border: 1px solid rgb(0, 102, 255);
+}
+
+.surpport-2>div>div section>div img {
+    width: auto;
+    height: 65px;
+    margin: 0 auto 15px;
+}
+
+.surpport-2>div>div section h3 {
+    margin-bottom: 10px;
+}
+
 /* business */
 
 .business>:first-child>div>:first-child {
@@ -505,73 +672,6 @@ main>div>div .mouse_scroll span::after {
 
 .business>:first-child>div>div p {
     color: #555;
-}
-
-.business>.business-process {
-    padding: 70px 5%;
-    background-color: #f7f7f8;
-}
-
-.business>.business-process>div {
-    text-align: center;
-    padding: 30px 5%;
-    margin: 0 auto;
-    max-width: 1400px;
-}
-
-.business>.business-process>div>p {
-    margin: 10px 0 50px;
-}
-
-.business>.business-process>div>div>section {
-    background-color: white;
-    border-radius: 20px;
-    padding: 40px;
-}
-
-.business>.business-process>div>div>section>div {
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.business>.business-process>div>div>section img {
-    width: auto;
-    height: 70px;
-    margin: 0 auto;
-}
-
-.business>.business-process>div>div>section:first-of-type img {
-    height: 60px;
-}
-
-.business>.business-process>div>div>section:nth-of-type(3) img {
-    height: 50px;
-}
-
-.business>.business-process>div>div>section:nth-of-type(4) img {
-    height: 60px;
-}
-
-.business>.business-process>div>div>section h3 {
-    margin: 10px 0 8px;
-}
-
-.business>.business-process>div>div>section p {
-    color: #555;
-    font-size: 0.9rem;
-}
-
-.business>.business-process>div>div>div {
-    margin: -10px auto;
-    transform: rotate(90deg);
-}
-
-.business>.business-process>div>div img {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
 }
 
 .business>.business-portfolio {
@@ -855,11 +955,15 @@ main>div>div .mouse_scroll span::after {
     }
 
     .home-1>div>div>p {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .home-1>div>div>p:first-of-type {
         margin: 60px 0 20px;
+    }
+
+    .home-2 {
+        padding-top: 80px;
     }
 
     .home-2>:first-child {
@@ -875,8 +979,10 @@ main>div>div .mouse_scroll span::after {
     }
 
     .home-2>div h3 {
+        width: 100%;
         font-size: 2rem;
-        margin: 20px auto 0px;
+        line-height: 2.5rem;
+        margin: 60px auto 0px;
     }
 
     .slider>div img {
@@ -1011,6 +1117,10 @@ main>div>div .mouse_scroll span::after {
 
     .home-7 {
         height: 700px;
+    }
+
+    .home-7.with-namjin {
+        height: 800px;
     }
 
     .home-7.commercial {
@@ -1162,6 +1272,99 @@ main>div>div .mouse_scroll span::after {
         margin-right: 10px;
     }
 
+    /* surpport */
+
+    .surpport-1>div>:first-child>h1 {
+        font-size: 3rem;
+        margin: auto;
+    }
+
+    .surpport-1>div>:first-child>h2 {
+        font-size: 2.5rem;
+        margin: 50px 0 90px;
+        padding: 50px 30px;
+        border-radius: 20px;
+    }
+
+    .surpport-1>div>:first-child>h2 span {
+        font-size: 3rem;
+        line-height: 5.2rem;
+        padding: 1px 15px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .surpport-1>div>:first-child>div>:first-child {
+        width: 500px;
+    }
+
+    .surpport-1>div>:first-child>div>:first-child img{
+        width: 300px;
+    }
+
+     .surpport-1>div>:first-child>div>:first-child h1 {
+        font-size: 8rem;
+     }
+
+      .surpport-1>div>:first-child>div>:first-child h1 span {
+        font-size: 3rem;
+      }
+    
+    .surpport-1>div>:first-child>div>:last-child {
+        width: 600px;
+        margin: auto 0;
+    }
+
+    .surpport-1>div>:first-child>div>div>h2 {
+        font-size: 2.2rem;
+        line-height: 1.8rem;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .surpport-1>div>:first-child>div>div>h3 {
+        text-align: left;
+        margin: 30px 0 0;
+        font-size: 1.5rem;
+    }
+
+    .surpport-1>div>:last-child {
+        margin-top: 100px;
+    }
+
+    .surpport-1>div>:last-child>div section {
+        position: relative;
+        margin: 0 0 50px;
+        padding: 40px 30px 90px;
+    }
+
+    .surpport-1>div>:last-child>div section h2 {
+        font-size: 1.5rem;
+    }
+
+    .surpport-1>div>:last-child>div section>ul li {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    .surpport-1>div>:last-child>div section>ul li:last-of-type {
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .surpport-1>div>:last-child>:last-child p {
+        font-size: 1.2rem;
+    }
+
+    .surpport-2>div>h1 {
+        font-size: 3rem;
+        margin-bottom: 70px;
+    }
+
+    .surpport-2>div>div section {
+        padding: 50px;
+    }
+
     /* business */
 
     .business>:first-child {
@@ -1191,48 +1394,6 @@ main>div>div .mouse_scroll span::after {
 
     .business>:first-child>div>div p {
         font-size: 1.2rem;
-    }
-
-    .business>.business-process {
-        padding: 150px 0;
-    }
-
-    .business>.business-process>div h1 {
-        font-size: 3rem;
-    }
-
-    .business>.business-process>div p {
-        margin: 20px 0 70px;
-        font-size: 1.2rem;
-    }
-
-    .business>.business-process>div>div {
-        display: flex;
-    }
-
-    .business>.business-process>div>div>section {
-        width: 350px;
-        height: 340px;
-        padding: 30px 20px 40px;
-    }
-
-    .business>.business-process>div>div>section h3 {
-        font-size: 1.5rem;
-        height: 65px;
-        margin: 15px 0 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .business>.business-process>div>div>section p {
-        font-size: 1rem;
-        margin: 0;
-    }
-
-    .business>.business-process>div>div>div {
-        margin: auto -12px;
-        transform: rotate(0deg);
     }
 
     .business>.business-portfolio {

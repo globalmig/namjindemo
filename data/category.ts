@@ -3,7 +3,8 @@ export const CATEGORY_MAP: { [key: string]: { title: string; categories?: {name:
         title: '회사소개',
         categories: [
             {name: "회사소개 및 연혁", url: "introduce"},
-            {name: "현장 소개", url: "our-work"}
+            {name: "현장 소개", url: "our-work"},
+            {name: "폐업 정부 지원 안내", url: "surpport"},
         ],
         banner: "/images/banner_company.jpg",
     },

@@ -212,17 +212,17 @@ nav>div>div {
 }
 
 .submenu {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(-6px);
-  transition: 0.8s
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: 0.8s
 }
 
 .submenu.sub-open {
-  max-height: 500px;
-  opacity: 1;
-  transform: translateY(0);
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* category-banner */
@@ -245,6 +245,107 @@ nav>div>div {
     color: white;
 }
 
+/* business-process */
+
+.business-process {
+    padding: 70px 5%;
+    background-color: #f7f7f8;
+}
+
+.business-process>div {
+    text-align: center;
+    padding: 30px 5%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.business-process>div>p {
+    margin: 10px 0 50px;
+}
+
+.business-process>div>div>section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 25px;
+}
+
+.business-process>div>div>section>div {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-process>div>div>section img {
+    width: auto;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.business-process>div>div>section:first-of-type img {
+    height: 60px;
+}
+
+.business-process>div>div>section:nth-of-type(3) img {
+    height: 50px;
+}
+
+.business-process>div>div>section:nth-of-type(4) img {
+    height: 60px;
+}
+
+.business-process>div>div>section:last-of-type img {
+    height: 60px;
+}
+
+.business-process>div>div>section h3 {
+    margin: 10px 0 8px;
+}
+
+.business-process>div>div>section p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.business-process>div>div>section ul li {
+    margin: 5px 0;
+}
+
+.business-process>div>div>section ul li:not(.business-process>div>div>section:last-of-type ul li:last-of-type)::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: rgb(0, 102, 255);
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.business-process>div>div>section ul li span {
+    font-weight: bold;
+    color: rgb(0, 102, 255);
+}
+
+.business-process>div>div>section:last-of-type ul li:last-of-type {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+.business-process>div>div>div {
+    margin: -10px auto;
+    transform: rotate(90deg);
+}
+
+.business-process>div>div img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
 /* inquire-section */
 
 .inquire-section {
@@ -253,6 +354,19 @@ nav>div>div {
     width: 100%;
     height: 300px;
     position: relative;
+}
+
+.inquire-section.inquire-surpport {
+    background-image: url("/images/inqurie_section_bg_2.jpg");
+    height: 450px;
+}
+
+.inquire-section.inquire-surpport h2 {
+    margin-top: 10px;
+}
+
+.inquire-section.inquire-surpport h3 {
+    margin-top: 20px;
 }
 
 .inquire-section>div {
@@ -266,7 +380,7 @@ nav>div>div {
 }
 
 .inquire-section>div h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .inquire-section>div button {
@@ -420,6 +534,7 @@ footer> :last-child>div:first-of-type {
 
     nav>ul>li>a {
         font-size: 1.2rem;
+        font-weight: bold;
     }
 
     nav>ul>li>ul {
@@ -491,6 +606,60 @@ footer> :last-child>div:first-of-type {
         display: flex;
         gap: 15px;
     }
+
+    /* business-process */
+    .business-process {
+        padding: 150px 0;
+    }
+
+    .business-process>div h1 {
+        font-size: 3rem;
+    }
+
+    .business-process>div p {
+        margin: 20px 0 70px;
+        font-size: 1.2rem;
+    }
+
+    .business-process>div>div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .business-process>div>div>section {
+        width: 350px;
+        height: 340px;
+        padding: 30px 20px 40px;
+    }
+
+    .business-process>div>div>section h3 {
+        font-size: 1.5rem;
+        height: 65px;
+        margin: 8px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .business-process>div>div>section p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .business-process>div>div>section:last-of-type ul li:last-of-type {
+    padding: 15px 8px;
+    font-size: 0.9rem;
+}
+
+    .business-process>div>div>div {
+        margin: auto -12px;
+        transform: rotate(0deg);
+    }
+
+    .business-process>div>div img {
+    width: 40px;
+    height: 40px;
+}
 
     /* inquire-section */
 

@@ -49,11 +49,13 @@ export default function Home() {
 
       <article className="home-2">
         <div>
-          <h1><span>보이지 않는 곳까지</span><br />책임지는 철거</h1>
-          <h3>확실한 마감, 철저한 정리까지!<br />눈에 보이지 않는 부분까지 꼼꼼하게 책임집니다.</h3>
+          <h1><span>합리적인 견적</span>과<br />믿을 수 있는 서비스</h1>
+          <h3>모든 현장은 무료 방문 견적을 통해 정확하게 파악하고,<br/>
+            고객님께 합리적이고 투명한 견적서를 제공합니다.<br/><br/>
+            남진철거는 단순한 철거가 아닌,<br/><span>안전과 신뢰를 바탕으로 한 철거 서비스</span>를 약속드립니다.</h3>
         </div>
         <div>
-          <Slide/>
+          <Slide />
         </div>
       </article>
 
@@ -90,10 +92,10 @@ export default function Home() {
       </article>
 
       <Service
-      clasName="commercial"
-      title="안심하고 맡기는<br />폐업 지원금 서비스"
-      subTitle="소상공인 폐업 지원금 서류 작성부터 제출까지!"
-      content="어렵고 복잡한 절차 없이 논스톱으로 빠르고 편리하게 도와드립니다."/>
+        clasName="commercial"
+        title="안심하고 맡기는<br />폐업 지원금 서비스"
+        subTitle="소상공인 폐업 지원금 서류 작성부터 제출까지!"
+        content="어렵고 복잡한 절차 없이 논스톱으로 빠르고 편리하게 도와드립니다." />
 
       <article className="home-4">
         <div>

@@ -21,7 +21,8 @@ const OPTION_LIST = [
     "구조물 철거",
     "가정집 폐기물 처리",
     "상가 폐기물 처리",
-    "원상복구공사"
+    "원상복구공사",
+    "폐업 지원 상담 신청"
 ];
 
 export default function InquireForm() {
