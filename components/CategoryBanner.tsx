@@ -21,7 +21,7 @@ export default function CategoryBanner() {
                     {subcategoryName}
                 </h1>
                 <div className="pc">
-                    <Image src="/icons/home.png" alt="홈 아이콘" width={20} height={18} />
+                    <Image src="/icons/home.png" alt="홈으로 이동" width={20} height={18} />
                     <Image src="/icons/pagination_next.png" alt="카테고리분류" width={10} height={15} />
                     <p>{categoryName.title}</p>
                     {subcategoryName && subcategoryName ==="견적문의" ?

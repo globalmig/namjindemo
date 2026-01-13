@@ -17,7 +17,7 @@ export default function SurpportPage() {
                         <div className="display-flex-flow">
                             <div className="display-flex">
                                 <div>
-                                    <Image src="/images/surpport_통계.png" alt="통계" width={435} height={435} />
+                                    <Image src="/images/surpport_통계.png" alt="폐업 정부 지원" width={435} height={435} />
                                 </div>
                                  <h1>80<span>%</span></h1>
                             </div>
@@ -36,7 +36,7 @@ export default function SurpportPage() {
                                 <ul>
                                     <li><span>지원 금액:</span> 최대 600만원</li>
                                     <li><span>지원 기준:</span> 평당 20만원 기준, 인테리어 철거 및 원상복구 비용 포함</li>
-                                    <li><Image src="/icons/참고.png" alt="참고사항" width={65} height={65} /><p>등록된 철거업체를 이용해야 지원 가능</p></li>
+                                    <li><Image src="/icons/참고.png" alt="폐업 철거비 최대 600만원 지원" width={65} height={65} /><p>등록된 철거업체를 이용해야 지원 가능</p></li>
                                 </ul>
                             </section>
                             <section>
@@ -46,7 +46,7 @@ export default function SurpportPage() {
                                     <li>- 사업자등록 후 60일 이상 경과</li>
                                     <li>- 임대사업장 운영 (자가 건물 제외)</li>
                                     <li>- 폐업 예정자 또는 폐업자</li>
-                                    <li><Image src="/icons/참고.png" alt="참고사항" width={65} height={65} /><p>단, 금융업·보험업·유흥업·사행성 업종은 제외</p></li>
+                                    <li><Image src="/icons/참고.png" alt="폐업 철거비 지원 자격" width={65} height={65} /><p>단, 금융업·보험업·유흥업·사행성 업종은 제외</p></li>
                                 </ul>
                             </section>
                         </div>

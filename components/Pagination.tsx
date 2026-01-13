@@ -54,7 +54,7 @@ export default function Pagination({
   return (
     <div className="pagination display-flex">
       <button onClick={onClickPrevPage} style={{ width: '12px', maxWidth: '15px' }}>
-        <Image src="/icons/pagination_prev.png" alt="이" width={100} height={20} style={{ width: '100%', height: 'auto' }} />
+        <Image src="/icons/pagination_prev.png" alt="이전" width={100} height={20} style={{ width: '100%', height: 'auto' }} />
       </button>
       <div>
         {pages.map((page) => (

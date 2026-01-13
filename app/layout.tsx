@@ -7,8 +7,18 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export const metadata: Metadata = {
-  title: "남진철거",
-  description: "10년 넘게 전국 각지에서 다양한 철거 및 폐기물 처리 작업을 진행해온 철거 전문 업체입니다.",
+  title: "남진철거 | 전국 아파트·주택·상가 철거, 폐기물 처리 전문",
+  description: "전국 아파트·주택·상가 철거, 폐기물 처리. 상담 010-4691-7723",
+  keywords: [
+    "남진철거",
+    "철거 공사",
+    "철거",
+    "폐기물 처리",
+    "원상 복구",
+    "주택 철거",
+    "상가 철거",
+    "폐업 정부 지원",
+  ],
   openGraph: {
     title: '남진철거',
     description: '안전하게 철거하고, 믿음으로 다시 세웁니다.',
@@ -38,9 +48,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

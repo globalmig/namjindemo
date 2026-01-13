@@ -44,7 +44,7 @@ export default function Header() {
 
                     <div>
                         <Link href='/'>
-                        <Image src="/icons/logo.png" alt="홈으로" width={50} height={50}/>
+                        <Image src="/icons/logo.png" alt="전국 아파트·주택·상가 철거, 폐기물 처리 전문. 남진철거" width={50} height={50}/>
                         </Link>
                     </div>
 

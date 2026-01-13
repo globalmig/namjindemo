@@ -26,7 +26,7 @@ export default function IntroducePage() {
             <h1>다양한 현장 경험과 전문성</h1>
             <h3>현장에서 쌓은 경험으로 <span>더 안전하고 정확하게</span> 작업합니다.</h3>
             <div>
-              <Image src="/images/demolition_1.png" alt="남진철거 소개" width={1366} height={250} />
+              <Image src="/images/demolition_1.png" alt="전국 아파트·주택·상가 철거 전문 업체" width={1366} height={250} />
             </div>
             <p>
               남진철거는 상가(카페, 식당, 사무실, 술집, 미용실, 네일샵, 헬스장, 병원 등)부터<br />주거공간(아파트, 주택, 빌라)에 이르기까지 <span>인테리어 내부 철거 작업</span>을 전문적으로 수행합니다.
@@ -57,25 +57,25 @@ export default function IntroducePage() {
                 <div className="display-flex-flow">
                   <section>
                     <div>
-                      <Image src="/icons/trust_1.png" alt="아이콘" width={70} height={70} />
+                      <Image src="/icons/trust_1.png" alt="철거 및 폐기물 처리 경험" width={70} height={70} />
                     </div>
                     <p>10년 이상 축적된<br />철거 및 폐기물 처리 경험</p>
                   </section>
                   <section>
                     <div>
-                      <Image src="/icons/trust_2.png" alt="아이콘" width={70} height={70} />
+                      <Image src="/icons/trust_2.png" alt="안전 사고 없는 시공" width={70} height={70} />
                     </div>
                     <p>안전 지침 및 법규 준수로<br />사고 없는 시공</p>
                   </section>
                   <section>
                     <div>
-                      <Image src="/icons/trust_3.png" alt="아이콘" width={70} height={177} />
+                      <Image src="/icons/trust_3.png" alt="전 지역 철거 및 폐기물 처리" width={70} height={177} />
                     </div>
                     <p>전 지역 철거<br />및 폐기물 처리 가능</p>
                   </section>
                   <section>
                     <div>
-                      <Image src="/icons/trust_4.png" alt="아이콘" width={70} height={70} />
+                      <Image src="/icons/trust_4.png" alt="무료 방문 견적" width={70} height={70} />
                     </div>
                     <p>무료 방문 견적<br />& 합리적 비용 제시</p>
                   </section>

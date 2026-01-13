@@ -43,12 +43,12 @@ export default function Slide() {
 
   return (
     <Slider ref={sliderRef} {...settings} className="slider">
-      <div><Image src="/images/slider_1.jpg" alt="image" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_2.jpg" alt="image" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_4.jpg" alt="image" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_5.jpg" alt="image" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_6.jpg" alt="image" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_7.jpg" alt="image" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_1.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_2.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_4.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_5.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_6.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      <div><Image src="/images/slider_7.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
     </Slider>
   );
 }
