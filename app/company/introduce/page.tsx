@@ -23,7 +23,7 @@ export default function IntroducePage() {
         <div>
 
           <div>
-            <h1>다양한 현장 경험과 전문성</h1>
+            <h2>다양한 현장 경험과 전문성</h2>
             <h3>현장에서 쌓은 경험으로 <span>더 안전하고 정확하게</span> 작업합니다.</h3>
             <div>
               <Image src="/images/demolition_1.png" alt="전국 아파트·주택·상가 철거 전문 업체" width={1366} height={250} />
@@ -41,7 +41,7 @@ export default function IntroducePage() {
 
       <article className="home-2">
               <div>
-                <h1><span>합리적인 견적</span>과<br />믿을 수 있는 서비스</h1>
+                <h2><span>합리적인 견적</span>과<br />믿을 수 있는 서비스</h2>
                 <h3>모든 현장은 무료 방문 견적을 통해 정확하게 파악하고,<br/>
                   고객님께 합리적이고 투명한 견적서를 제공합니다.<br/><br/>
                   남진철거는 단순한 철거가 아닌,<br/><span>안전과 신뢰를 바탕으로 한 철거 서비스</span>를 약속드립니다.</h3>
@@ -53,7 +53,7 @@ export default function IntroducePage() {
       
             <article className="home-3">
               <div>
-                <h1>남진철거를 믿고 맡길 수 있는 이유</h1>
+                <h2>남진철거를 믿고 맡길 수 있는 이유</h2>
                 <div className="display-flex-flow">
                   <section>
                     <div>

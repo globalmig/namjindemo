@@ -13,7 +13,7 @@ export default function Service({ title, subTitle, content, clasName }: ServiceP
   return (
     <article className={`home-7 ${clasName}`}>
       <div>
-        <h1 dangerouslySetInnerHTML={{ __html: title }} />
+        <h2 dangerouslySetInnerHTML={{ __html: title }} />
         <h4>{subTitle}</h4>
         <p>{content}</p>
         {isCommercial &&

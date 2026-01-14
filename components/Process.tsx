@@ -15,7 +15,7 @@ export default function Process() {
             {
                 isBusiness &&
                 <div>
-                <h1>진행 프로세스</h1>
+                <h2>진행 프로세스</h2>
                 <p>남진철거는 투명하고 체계적인 절차를 통해 신뢰할 수 있는 철거 서비스를 제공합니다.</p>
                 <div>
                     <section>
@@ -75,7 +75,7 @@ export default function Process() {
             }
             { isCompany &&
             <div>
-                <h1>지원금 신청 방법</h1>
+                <h2>지원금 신청 방법</h2>
                 <p>아래의 방법으로 폐업 지원금을 신청할 수 있습니다.</p>
                 <div>
                     <section>

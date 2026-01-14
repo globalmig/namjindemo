@@ -259,6 +259,10 @@ nav>div>div {
     max-width: 1400px;
 }
 
+.business-process>div>h2 {
+    font-size: 2rem;
+}
+
 .business-process>div>p {
     margin: 10px 0 50px;
 }
@@ -362,7 +366,11 @@ nav>div>div {
     height: 450px;
 }
 
-.inquire-section.inquire-surpport h2 {
+.inquire-section.inquire-surpport h2:first-of-type {
+    font-size: 2rem;
+}
+
+.inquire-section.inquire-surpport h2:last-of-type {
     margin-top: 10px;
 }
 
@@ -380,7 +388,7 @@ nav>div>div {
     width: 80%;
 }
 
-.inquire-section>div h1 {
+.inquire-section>div h2:first-of-type {
     font-size: 1.8rem;
 }
 
@@ -613,7 +621,7 @@ footer> :last-child>div:first-of-type {
         padding: 150px 0;
     }
 
-    .business-process>div h1 {
+    .business-process>div h2 {
         font-size: 3rem;
     }
 
@@ -692,7 +700,7 @@ footer> :last-child>div:first-of-type {
         height: 600px;
     }
 
-    .inquire-section>div h1 {
+    .inquire-section>div h2:first-of-type {
         font-size: 3rem;
     }
 

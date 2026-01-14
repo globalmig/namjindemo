@@ -25,7 +25,7 @@ export default function BusinessLayout() {
                         <div>
                             <h2 className="mo">{categoryContents.intro_mo}</h2>
                             <p className="mo">{categoryContents.contents_mo}</p>
-                            <h1 dangerouslySetInnerHTML={{ __html: categoryContents.intro_pc }} className="pc" />
+                            <h2 dangerouslySetInnerHTML={{ __html: categoryContents.intro_pc }} className="pc" />
                             <p className="pc">{categoryContents.contents_pc}</p>
                         </div>
                     </div>}
@@ -61,7 +61,7 @@ export default function BusinessLayout() {
             }
             <Process/>
             <div className="business-portfolio">
-                <h1>대표 현장 포트폴리오</h1>
+                <h2>대표 현장 포트폴리오</h2>
                 <PortfolioList />
             </div>
         </article>

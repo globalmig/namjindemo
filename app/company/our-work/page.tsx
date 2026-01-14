@@ -10,7 +10,7 @@ export default function OurworkPage() {
             <article className="our-work">
                 <div>
                     <div>
-                        <h1>남진철거에서 진행한 현장을 소개합니다.</h1>
+                        <h2>남진철거에서 진행한 현장을 소개합니다.</h2>
                     </div>
                     <div className="display-flex-flow">
                         {WORK_DATA.map(w =>

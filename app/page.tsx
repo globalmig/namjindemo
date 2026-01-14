@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <div>
             <p>Demolish Safely, Rebuild with Trust</p>
-            <h1>안전하게 철거하고, 믿음으로 다시 세웁니다.</h1>
+            <h2>안전하게 철거하고, 믿음으로 다시 세웁니다.</h2>
             <div>
               <button>
                 <Link href="/inquire">빠른 견적 신청</Link>
@@ -31,7 +31,7 @@ export default function Home() {
         <div>
 
           <div>
-            <h1>왜 <span>남진철거</span>일까요?</h1>
+            <h2>왜 <span>남진철거</span>일까요?</h2>
             <h3>남진철거는 다양한 현장 경험과 전문성을 가지고 있습니다.</h3>
             <div>
               <Image src="/images/demolition_1.png" alt="상가와 주거공간 인테리어 내부 철거" width={1366} height={250} />
@@ -49,7 +49,7 @@ export default function Home() {
 
       <article className="home-2">
         <div>
-          <h1><span>합리적인 견적</span>과<br />믿을 수 있는 서비스</h1>
+          <h2><span>합리적인 견적</span>과<br />믿을 수 있는 서비스</h2>
           <h3>모든 현장은 무료 방문 견적을 통해 정확하게 파악하고,<br/>
             고객님께 합리적이고 투명한 견적서를 제공합니다.<br/><br/>
             남진철거는 단순한 철거가 아닌,<br/><span>안전과 신뢰를 바탕으로 한 철거 서비스</span>를 약속드립니다.</h3>
@@ -61,7 +61,7 @@ export default function Home() {
 
       <article className="home-3">
         <div>
-          <h1>남진철거를 믿고 맡길 수 있는 이유</h1>
+          <h2>남진철거를 믿고 맡길 수 있는 이유</h2>
           <div className="display-flex-flow">
             <section>
               <div>
@@ -102,7 +102,7 @@ export default function Home() {
           <div className="display-flex-flow">
             <div>
               <h3>SERVICE</h3>
-              <h1>핵심 사업분야</h1>
+              <h2>핵심 사업분야</h2>
             </div>
             <div className="display-flex-flow">
               <section>
@@ -172,7 +172,7 @@ export default function Home() {
         <div>
           <div>
             <h3>PORTFOLIO</h3>
-            <h1>결과로 증명합니다.</h1>
+            <h2>결과로 증명합니다.</h2>
           </div>
           <PortfolioList />
         </div>

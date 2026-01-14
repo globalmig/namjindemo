@@ -12,14 +12,14 @@ export default function SurpportPage() {
                 <div>
 
                     <div>
-                        <h1>폐업 부담, 남진철거가 정부 지원과 함께 덜어드립니다!</h1>
+                        <h2>폐업 부담, 남진철거가 정부 지원과 함께 덜어드립니다!</h2>
                         <h2><span>최대 600만원!</span><br />점포 철거비 지원, 놓치지 마세요.</h2>
                         <div className="display-flex-flow">
                             <div className="display-flex">
                                 <div>
                                     <Image src="/images/surpport_통계.png" alt="폐업 정부 지원" width={435} height={435} />
                                 </div>
-                                 <h1>80<span>%</span></h1>
+                                 <h2>80<span>%</span></h2>
                             </div>
                             <div>
                                 <h2>폐업 시 가장 큰 부담 중 하나,</h2>
@@ -65,7 +65,7 @@ export default function SurpportPage() {
 
             <article className="surpport-2">
                 <div>
-                    <h1>지원금 기간을 놓치면 생기는 문제</h1>
+                    <h2>지원금 기간을 놓치면 생기는 문제</h2>
                     <div className="display-flex-flow">
                         <section>
                             <div>
