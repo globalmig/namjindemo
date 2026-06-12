@@ -6,8 +6,8 @@ export default function formPage() {
     return (
         <>
             <CategoryBanner/>
-            <article className="inquire">
-                <div>
+            <article>
+                <div className="relative">
                     <InquireForm/>
                 </div>
             </article>

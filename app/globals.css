@@ -1,8 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
 
-* {
+@theme {
+  --color-blue: #0066ff;
+  --breakpoint-pc: 1366px;
+}
+
+@layer base {
+  * {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -10,745 +17,115 @@
     word-break: keep-all;
     outline: 0px solid silver;
     font-family: 'Noto Sans KR', sans-serif;
-}
-
-html {
-    overflow-x: hidden;
-}
-
-body {
-    color: black;
-    overflow-x: hidden;
-}
-
-li {
-    cursor: pointer;
-    transition: 0.5s;
-    font-size: 0.9rem;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    transition: 0.3s;
-    text-transform: uppercase;
-    color: black;
-}
-
-table {
-    border-collapse: collapse;
-    border: none;
-}
-
-textarea {
-    resize: none;
-}
-
-input {
-    border: 0px;
-    background-color: transparent;
-}
-
-img {
-    display: block;
-    margin: auto 0;
-}
-
-button {
-    border: 0px solid;
-    background: transparent;
-    transition: 0.3s;
-}
-
-.display-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.display-flex-flow {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.pc {
-    display: none;
-}
-
-.black-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 20;
-    background-color: black;
-    opacity: 0.5;
-}
-
-article>div:first-of-type {
-    padding: 80px 5%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* header */
-
-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 15px 5%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    z-index: 10;
-}
-
-header>div {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-header>div>:first-child img {
-    margin: auto 0;
-    width: 50px;
-    height: auto;
-    filter: brightness(0) invert(1);
-}
-
-header>div>h2 a {
-    color: white;
-}
-
-header>div>:nth-child(2)>:last-child {
-    cursor: pointer;
-    margin: auto 0;
-}
-
-header nav>ul>li>a {
-    color: white;
-}
-
-.header-scroll {
-    background-color: white;
-    border-bottom: 1px solid #ccc;
-}
-
-.header-scroll>div>:first-child a img {
-    filter: brightness(1) invert(0);
-}
-
-.header-scroll nav>ul>li>a {
-    color: black;
-}
-
-.header-scroll>div>:nth-child(2)>:last-child {
-    filter: invert(1);
-}
-
-/* nav */
-
-nav>ul {
-    display: none;
-}
-
-nav>div {
-    position: absolute;
-    background: white;
-    height: 100vh;
-    width: 80%;
-    top: 0;
-    right: 0;
-    transition: 0.3s;
-}
-
-nav>div>ul li a {
-    font-size: 1.1rem;
-}
-
-nav>div>ul>li>div {
-    padding: 20px;
-}
-
-nav>div>ul>li>div>p,
-nav>div>ul>li>div a {
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav>div>ul>li>div>div {
-    margin: auto 0
-}
-
-nav>div>ul>li>ul li a {
-    padding: 20px 30px;
-    font-size: 1rem;
-    color: #555;
-    display: block;
-}
-
-nav>div>ul>li>ul li a:hover {
-    background-color: rgb(0, 102, 255);
-    color: white;
-}
-
-nav>div>div {
-    position: absolute;
-    top: 20px;
-    left: -50px;
-    cursor: pointer;
-}
-
-.nav-open {
-    right: 0;
-    z-index: 50;
-}
-
-.nav-close {
-    right: -100%;
-    overflow-x: hidden;
-    z-index: 20;
-}
-
-.submenu {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transform: translateY(-6px);
-    transition: 0.8s
-}
-
-.submenu.sub-open {
-    max-height: 500px;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* category-banner */
-
-.category-banner {
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    position: relative;
-    text-align: center;
-    background-repeat: no-repeat;
-}
-
-.category-banner>div {
-    position: absolute;
-    width: 90%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-/* business-process */
-
-.business-process {
-    padding: 70px 5%;
-    background-color: #f7f7f8;
-}
-
-.business-process>div {
-    text-align: center;
-    padding: 30px 5%;
-    margin: 0 auto;
-    max-width: 1400px;
-}
-
-.business-process>div>h2 {
-    font-size: 2rem;
-}
-
-.business-process>div>p {
-    margin: 10px 0 50px;
-}
-
-.business-process>div>div>section {
-    background-color: white;
-    border-radius: 20px;
-    padding: 30px 25px;
-}
-
-.business-process>div>div>section>div {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.business-process>div>div>section img {
-    width: auto;
-    height: 40px;
-    margin: 0 auto;
-}
-
-.business-process>div>div>section:first-of-type img {
-    height: 40px;
-}
-
-.business-process>div>div>section:nth-of-type(3) img {
-    height: 30px;
-}
-
-.business-process>div>div>section:nth-of-type(4) img {
-    height: 40px;
-}
-
-.business-process>div>div>section:last-of-type img {
-    height: 40px;
-}
-
-.business-process>div>div>section h3 {
-    margin: 10px 0 8px;
-    font-size: 1.1rem;
-}
-
-.business-process>div>div>section p {
-    color: #555;
-    font-size: 0.9rem;
-}
-
-.business-process>div>div>section ul li {
-    margin: 5px 0;
-}
-
-.business-process>div>div>section ul li:not(.business-process>div>div>section:last-of-type ul li:last-of-type)::before {
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
-    background-color: rgb(0, 102, 255);
-    flex-direction: column;
-    margin-right: 10px;
-}
-
-.business-process>div>div>section ul li span {
-    font-weight: bold;
-    color: rgb(0, 102, 255);
-}
-
-.business-process>div>div>section:last-of-type ul li:last-of-type {
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    padding: 5px;
-    margin-top: 15px;
-    font-size: 0.8rem;
-}
-
-.business-process>div>div>div {
-    margin: -10px auto;
-    transform: rotate(90deg);
-}
-
-.business-process>div>div img {
-    width: 30px;
-    height: 30px;
-    margin: 0 auto;
-}
+  }
+
+  html {
+    @apply text-black overflow-x-hidden 
+  }
 
-/* inquire-section */
-
-.inquire-section {
-    background-image: url("/images/inqurie_section_bg.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    position: relative;
-}
-
-.inquire-section.inquire-surpport {
-    background-image: url("/images/inqurie_section_bg_2.jpg");
-    height: 450px;
-}
-
-.inquire-section.inquire-surpport h2:first-of-type {
-    font-size: 2rem;
-}
-
-.inquire-section.inquire-surpport h2:last-of-type {
-    margin-top: 10px;
-}
-
-.inquire-section.inquire-surpport h3 {
-    margin-top: 20px;
-}
+  body {
+    @apply text-black overflow-x-hidden
+  }
 
-.inquire-section>div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    width: 80%;
-}
+  h1 {
+    @apply text-[2rem] font-bold;
+    @apply pc:text-[3rem]
+  }
 
-.inquire-section>div h2:first-of-type {
-    font-size: 1.8rem;
-}
+  h2 {
+    @apply text-[2rem] font-bold;
+    @apply pc:text-[3rem]
+  }
 
-.inquire-section>div button {
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 50px;
-    margin-top: 30px
-}
+  h3 {
+    @apply text-[1.5rem] font-bold;
+    @apply pc:text-[2rem]
+  }
 
-.inquire-section>div button:hover {
-    background-color: rgb(0, 102, 255);
-    border: 1px solid rgb(0, 102, 255)
-}
+  h4 {
+    @apply text-[1rem] font-bold
+  }
 
-.inquire-section>div button a {
-    font-weight: bold;
-    color: white;
-}
+  h5 {
+    @apply text-[0.9rem] font-bold
+  }
 
-/* pagination */
+  p,
+  li {
+    @apply transition-all duration-500 text-[0.9rem] pc:text-[1rem]
+  }
 
-.pagination {
-    margin: 50px auto 70px;
-    max-width: 700px;
-}
+  a {
+    @apply cursor-pointer transition-all duration-300 text-black no-underline
+  }
 
-.pagination>div button {
-    margin: 0 10px;
-    cursor: pointer;
-}
+  textarea {
+    @apply resize-none
+  }
 
-.pagination button img {
-    cursor: pointer;
-}
+  input {
+    @apply border-0 bg-transparent
+  }
 
-.pagination button p {
-    font-size: 1.2rem;
-}
+  table {
+    @apply w-full border border-[#ccc] collapse
+  }
 
-/* footer */
+  img {
+    @apply w-full h-auto block my-auto mx-0
+  }
 
-footer {
-    background: #222;
-    color: white;
-    padding: 20px 5% 50px;
-    position: relative;
-}
+  button {
+    @apply border-0 bg-transparent transition-all duration-300
+  }
 
-footer>:first-child>div>div,
-footer>:first-child>:last-child {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+  article>div {
+    @apply pc:py-37.5 pc:px-0;
+  }
 
-footer>:first-child h2:first-of-type {
-    width: 100%;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #ccc;
-}
+  article>div:first-of-type {
+    @apply py-20 max-w-300 my-0 mx-auto;
+    @apply pc:py-37.5 pc:px-0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-footer>:first-child h2:last-of-type {
-    margin: 20px 0;
 }
 
-footer>:first-child ul {
-    margin-bottom: 30px;
-}
+@layer components {
+  .display-flex {
+    @apply flex justify-between;
+  }
 
-footer>:first-child ul li {
-    color: #ccc;
-    margin: 8px 0;
-    font-size: 0.8rem;
-}
+  .display-flex-flow {
+    @apply flex justify-between flex-wrap;
+  }
 
-footer>:first-child ul li>div p {
-    font-size: 0.8rem;
-}
+  .mo {
+    @apply pc:hidden;
+  }
 
-footer>:first-child>:last-child>p {
-    color: #ccc;
-    font-size: 0.8rem;
-}
+  .pc {
+    @apply hidden pc:block;
+  }
 
-footer> :last-child {
-    position: fixed;
-    bottom: 50px;
-    right: 5%;
-}
+  .pc-flex {
+    @apply hidden pc:flex pc:pointer-events-auto;
+  }
 
-footer> :last-child>div {
-    border-radius: 100%;
-}
+  .black-bg {
+    @apply fixed z-20 top-0 left-0 bg-black opacity-50 w-full h-dvh;
+  }
 
-footer> :last-child>div img {
-    width: 100%;
-    height: auto;
-}
+  .loading {
+    @apply w-full max-w-300 my-0 mx-auto py-25 text-center text-[0.9rem];
+  }
 
-footer> :last-child>div:first-of-type {
-    margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1366px) {
-
-    .pc {
-        display: block;
-    }
-
-    .mo {
-        display: none;
-    }
-
-    li,
-    p {
-        font-size: 1rem;
-    }
-
-    article>div {
-        padding: 150px 0px;
-    }
-
-    article>div:first-of-type {
-        padding: 150px 0px;
-    }
-
-    /* header */
-
-    header {
-        padding: 20px 0;
-    }
-
-    header>div>div {
-        width: 600px;
-    }
-
-    /* nav */
-
-    nav {
-        margin: auto 0;
-    }
-
-    nav>ul {
-        display: flex;
-        justify-content: space-between;
-        gap: 75px;
-    }
-
-    nav>ul>li {
-        position: relative;
-    }
-
-    nav>ul>li>a {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
-
-    nav>ul>li>ul {
-        position: absolute;
-        top: 50px;
-        width: 300px;
-        background-color: white;
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.3s;
-    }
-
-    nav>ul>li>ul>li>a {
-        font-size: 1rem;
-        display: block;
-        padding: 15px;
-        width: 100%;
-    }
-
-    nav>ul>li>ul>li>a:hover {
-        background-color: rgb(0, 102, 255);
-        color: white;
-    }
-
-    nav>div>div>img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .nav-hover {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    nav>div {
-        width: 30%;
-    }
-
-    /* category-banner */
-
-    .category-banner {
-        height: 500px;
-    }
-
-    .category-banner>div {
-        top: 60%;
-    }
-
-    .category-banner>div>h1 {
-        font-size: 3.2rem;
-        margin-bottom: 10px;
-    }
-
-    .category-banner>div>div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .category-banner>div>div>p {
-        font-size: 1.3rem;
-    }
-
-    .category-banner>div>div img:not(.category-banner>div>div img:first-of-type) {
-        margin: auto 0;
-        filter: invert(1);
-    }
-
-    .category-banner>div>div {
-        display: flex;
-        gap: 15px;
-    }
-
-    /* business-process */
-    .business-process {
-        padding: 150px 0;
-    }
-
-    .business-process>div h2 {
-        font-size: 3rem;
-    }
-
-    .business-process>div p {
-        margin: 20px 0 70px;
-        font-size: 1.2rem;
-    }
-
-    .business-process>div>div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .business-process>div>div>section {
-        width: 350px;
-        height: 340px;
-        padding: 40px 20px 40px;
-    }
-
-    .business-process>div>div>section img {
-        height: 70px;
-    }
-
-    .business-process>div>div>section:first-of-type img {
-        height: 60px;
-    }
-
-    .business-process>div>div>section:nth-of-type(3) img {
-        height: 50px;
-    }
-
-    .business-process>div>div>section:nth-of-type(4) img {
-        height: 50px;
-    }
-
-    .business-process>div>div>section:last-of-type img {
-        height: 50px;
-    }
-
-    .business-process>div>div>section h3 {
-        font-size: 1.5rem;
-        height: 65px;
-        margin: 8px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .business-process>div>div>section p {
-        font-size: 1rem;
-        margin: 0;
-    }
-
-    .business-process>div>div>section:last-of-type ul li:last-of-type {
-        padding: 15px 8px;
-        font-size: 0.9rem;
-    }
-
-    .business-process>div>div>div {
-        margin: auto -12px;
-        transform: rotate(0deg);
-    }
-
-    .business-process>div>div img {
-        width: 40px;
-        height: 40px;
-    }
-
-    /* inquire-section */
-
-    .inquire-section {
-        height: 600px;
-    }
-
-    .inquire-section.inquire-surpport {
-        height: 600px;
-    }
-
-    .inquire-section>div h2:first-of-type {
-        font-size: 3rem;
-    }
-
-    .inquire-section>div button {
-        padding: 15px 70px;
-    }
-
-    .inquire-section>div button a {
-        font-size: 1.2rem;
-    }
-
-    /* pagination */
-
-    .pagination {
-        margin: 70px auto 30px;
-    }
-
-    /* footer */
-
-    footer {
-        padding: 30px 0 50px;
-    }
-
-    footer>:first-child>div:first-of-type {
-        border-bottom: 1px solid #ccc;
-    }
-
-    footer>:first-child h2:first-of-type {
-        width: 400px;
-    }
-
-    footer>:first-child h2:first-of-type {
-        padding-bottom: 0px;
-        border-bottom: 0px;
-        margin: auto 0;
-    }
-
-    footer>:first-child ul {
-        margin: 50px 0;
-    }
-
-    footer>:first-child>:last-child>p {
-        margin: auto 0;
-    }
-
-    footer> :last-child {
-        bottom: 100px;
-        right: 80px;
-    }
-
+  article>div:first-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

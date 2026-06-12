@@ -34,10 +34,15 @@ export default function PortfolioItem({ data}: PortfolioItemProps) {
         <>
             <div>
                 <Link href={`/portfolio/${portfolioCategoryURL ? portfolioCategoryURL : portfolioID }/${id}`}>
-                <Image src={thumnail} alt={`${name} 대표 이미지`} width={1366} height={1000}/>
+                <Image
+                src={thumnail}
+                alt={`${name} 대표 이미지`}
+                className="w-full h-auto rounded-2xl pc:rounded-4xl"
+                width={1366}
+                height={1000}/>
                 </Link>
             </div>
-            <p>{name}</p>
+            <p className="text-center mt-5 pc:text-[1.2rem]">{name}</p>
         </>
     )
 }

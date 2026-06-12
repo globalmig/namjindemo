@@ -52,26 +52,38 @@ export default function Pagination({
   };
 
   return (
-    <div className="pagination display-flex">
-      <button onClick={onClickPrevPage} style={{ width: '12px', maxWidth: '15px' }}>
-        <Image src="/icons/pagination_prev.png" alt="이전" width={100} height={20} style={{ width: '100%', height: 'auto' }} />
+    <div className="display-flex mt-12.5 mx-auto mb-17.5 max-w-175 pc:my-17.5 pc:mb-7.5">
+      <button
+        onClick={onClickPrevPage}
+        className="w-3 max-w-3.75">
+        <Image
+          src="/icons/pagination_prev.png"
+          alt="이전"
+          className="cursor-pointer w-full h-auto"
+          width={100}
+          height={20} />
       </button>
       <div>
         {pages.map((page) => (
           <button
             key={page}
+            className={`my-0 mx-2.5 cursor-pointer
+                ${selectPage === page ? 'font-bold text-blue' : 'font-normal text-black'}`
+            }
             onClick={() => onClickPage(page)}
-            style={{
-              fontWeight: selectPage === page ? "bold" : "normal",
-              color: selectPage === page ? "rgb(0, 102, 255)" : "black"
-            }}
           >
-            <p>{page}</p>
+            <p className="text-[1.2rem]">{page}</p>
           </button>
         ))}
       </div>
-      <button onClick={onClickNextPage} style={{ width: '12px', maxWidth: '15px' }}>
-        <Image src="/icons/pagination_next.png" alt="다음" width={100} height={20} style={{ width: '100%', height: 'auto' }} />
+      <button onClick={onClickNextPage}
+        className="w-3 max-w-3.75">
+        <Image
+          src="/icons/pagination_next.png"
+          alt="다음"
+          className="cursor-pointer w-full h-auto"
+          width={100}
+          height={20} />
       </button>
     </div>
   );

@@ -43,12 +43,17 @@ export default function Slide() {
 
   return (
     <Slider ref={sliderRef} {...settings} className="slider">
-      <div><Image src="/images/slider_1.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_2.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_4.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_5.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_6.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
-      <div><Image src="/images/slider_7.jpg" alt="철거 전문 남진철거" width={1366} height={1025} /></div>
+      {[1, 2, 4, 5, 6, 7].map((num) => (
+        <div key={num} className="w-full px-2.5 overflow-x-hidden">
+          <Image
+            src={`/images/slider_${num}.jpg`}
+            alt="철거 전문 남진철거"
+            className="w-full h-auto rounded-xs pc:rounded-4xl"
+            width={1366}
+            height={1025}
+          />
+        </div>
+      ))}
     </Slider>
   );
 }
