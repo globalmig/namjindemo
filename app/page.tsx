@@ -90,7 +90,7 @@ export default function Home() {
                     <Image src="/images/핵심분야_내부철거.jpg" alt="인테리어 내부 철거" className="w-full rounded-2xl h-auto duration-800 hover:scale-110 pc:rounded-4xl pc:w-full pc:h-full pc:object-cover" width={1000} height={800} />
                   </div>
                 </Link>
-                <h3 className="absolute left-5 bottom-5 text-[1.3rem] text-white pc:text-[1.5rem] pc:left-7.5 pc:bottom-7.5">인테리어 내부 철거</h3>
+                <h3 className="absolute left-5 bottom-5 text-[1.3rem] text-white pc:text-[1.5rem] pc:left-7.5 pc:bottom-25">인테리어 내부 철거</h3>
               </section>
               <section className="relative my-2.5 pc:m-0 pc:w-100 pc-h-[550px] pc:last:mt-17.5">
                 <Link href="/business/waste">
