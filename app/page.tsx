@@ -43,7 +43,15 @@ export default function Home() {
   return (
     <>
 
-      <main className="bg-[url('/images/main_banner_1.jpg')] bg-no-repeat bg-cover bg-center w-full h-175 relative text-center pc:h-200">
+      <main className="w-full h-175 relative text-center pc:h-200">
+        <Image
+          src="/images/main_banner_1.jpg"
+          alt="남진철거 - 안전하게 철거하고, 믿음으로 다시 세웁니다"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover -z-10"
+        />
         <div>
           <div className="absolute w-[80%] top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white pc:w-[35%]">
             <p className="pc:text-[1.3rem]">Demolish Safely, Rebuild with Trust</p>

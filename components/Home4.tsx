@@ -9,7 +9,7 @@ export default function Home4() {
                     <h3 className="text-[1.2rem] mt-2.5 mb-10 pc:text-[2rem] pc:mb-20">현장에서 쌓은 경험으로 <span className="text-blue">더 안전하고 정확하게</span> 작업합니다.</h3>
                     <div>
                         <Image
-                            src="/images/demolition_1.png"
+                            src="/images/demolition_1.jpg"
                             alt="전국 아파트·주택·상가 철거 전문 업체"
                             className="w-full h-50 object-cover rounded-xs mb-5
                                             pc:w-[85%] pc:h-125 pc:my-0 pc:mx-auto pc:object-cover pc:rounded-4xl pc:mb-5"

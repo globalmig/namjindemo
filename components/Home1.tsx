@@ -9,7 +9,7 @@ export default function Home1() {
                     <h3 className="text-[1.2rem] mt-2.5 pc:text-[2rem] mb-10 pc:mb-20">남진철거는 다양한 현장 경험과 전문성을 가지고 있습니다.</h3>
                     <div>
                         <Image
-                            src="/images/demolition_1.png"
+                            src="/images/demolition_1.jpg"
                             alt="전국 아파트·주택·상가 철거 전문 업체"
                             className="w-full h-50 object-cover rounded-lg mb-5
                                             pc:w-[85%] pc:h-125 pc:my-0 pc:mx-auto pc:object-cover pc:rounded-4xl pc:mb-5"

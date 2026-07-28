@@ -16,16 +16,6 @@ main>div>div .mouse_scroll span::after {
     }
 }
 
-.home-2 .slick-slider {
-    width: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-
-.home-2 .slick-slide {
-    box-sizing: border-box;
-}
-
 .slider .slick-next {
     display: none !important;
     opacity: 0;
@@ -48,25 +38,6 @@ main>div>div .mouse_scroll span::after {
     display: none !important;
 }
 
-.business-process>div>div>section ul li:not(.business-process>div>div>section:last-of-type ul li:last-of-type)::before {
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
-    background-color: #0066ff;
-    flex-direction: column;
-    margin-right: 10px;
-}
-
-.business-process>div>div>section:last-of-type ul li:last-of-type {
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    padding: 5px;
-    margin-top: 15px;
-    font-size: 0.8rem;
-}
-
 @media screen and (min-width: 1366px) {
 
     /* support */
@@ -87,26 +58,6 @@ main>div>div .mouse_scroll span::after {
         text-align: left;
         margin: 30px 0 0;
         font-size: 1.5rem;
-    }
-
-    .business-process>div>div>section img {
-        height: 70px;
-    }
-
-    .business-process>div>div>section:first-of-type img {
-        height: 60px;
-    }
-
-    .business-process>div>div>section:nth-of-type(3) img {
-        height: 50px;
-    }
-
-    .business-process>div>div>section:nth-of-type(4) img {
-        height: 50px;
-    }
-
-    .business-process>div>div>section:last-of-type img {
-        height: 50px;
     }
 
 }

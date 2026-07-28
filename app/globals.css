@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -16,7 +14,7 @@
     box-sizing: border-box;
     word-break: keep-all;
     outline: 0px solid silver;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: var(--font-noto-sans-kr), sans-serif;
   }
 
   html {
