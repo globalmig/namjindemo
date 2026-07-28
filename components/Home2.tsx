@@ -1,4 +1,6 @@
-import Slide from "./Slide";
+import dynamic from "next/dynamic";
+
+const Slide = dynamic(() => import("./Slide"));
 
 export default function Home2() {
     return (

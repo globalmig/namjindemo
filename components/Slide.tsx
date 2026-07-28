@@ -51,6 +51,7 @@ export default function Slide() {
             className="w-full h-auto rounded-xs pc:rounded-4xl"
             width={1366}
             height={1025}
+            sizes="(max-width: 576px) 85vw, (max-width: 992px) 50vw, 34vw"
           />
         </div>
       ))}
