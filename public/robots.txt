@@ -4,4 +4,20 @@ Disallow: /inquire
 User-agent: Yeti
 Disallow: /inquire
 
-Sitemap: https://www.namjindemo.com//sitemap.xml
+User-agent: GPTBot
+Allow: /
+Disallow: /inquire
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /inquire
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /inquire
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /inquire
+
+Sitemap: https://www.namjindemo.com/sitemap.xml

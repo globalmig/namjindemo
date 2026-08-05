@@ -15,7 +15,11 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "남진철거 | 전국 아파트·주택·상가 철거, 폐기물 처리 전문",
+  metadataBase: new URL("https://www.namjindemo.com"),
+  title: {
+    default: "남진철거 | 전국 아파트·주택·상가 철거, 폐기물 처리 전문",
+    template: "%s | 남진철거",
+  },
   description: "전국 아파트·주택·상가 철거, 폐기물 처리. 상담 010-4691-7723",
   keywords: [
     "남진철거",

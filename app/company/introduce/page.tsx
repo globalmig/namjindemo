@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import CategoryBanner from "@/components/CategoryBanner";
 import Home2 from "@/components/Home2";
 import Home3 from "@/components/Home3";
 import Home4 from "@/components/Home4";
 import InquireCommon from "@/components/InquireCommon";
+
+export const metadata: Metadata = {
+    title: "회사소개",
+    description: "2014년 설립 이후 10년 넘게 전국 각지에서 철거 및 폐기물 처리를 진행해온 남진철거의 연혁과 전문성을 소개합니다.",
+};
 
 const historyData = [
     {

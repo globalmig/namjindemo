@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import CategoryBanner from "@/components/CategoryBanner";
 import InquireCommon from "@/components/InquireCommon";
 import { WORK_DATA } from "@/data/work";
+
+export const metadata: Metadata = {
+    title: "현장 소개",
+    description: "남진철거가 진행한 상가, 아파트, 주택 철거 현장 사례를 소개합니다.",
+};
 
 export default function OurworkPage() {
 

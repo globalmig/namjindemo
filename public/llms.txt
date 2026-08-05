@@ -1,0 +1,34 @@
+# 남진철거
+
+> 전국 아파트·주택·상가 철거 및 폐기물 처리, 원상복구 공사를 전문으로 하는 철거 업체입니다. 2014년 설립 이후 10년 넘게 안전하고 신뢰할 수 있는 철거 서비스를 제공하고 있습니다.
+
+남진철거는 상가 인테리어 철거, 아파트/주택 내부 철거, 폐기물 처리, 원상복구 공사를 전국 단위로 진행합니다. 소상공인이 폐업할 때 필요한 점포 철거비 정부 지원금(최대 600만원) 신청도 서류 작성부터 제출까지 원스톱으로 도와드립니다. 상담 전화: 010-4691-7723.
+
+## 사업분야
+
+- [상가철거](https://www.namjindemo.com/business/commercial): 카페, 식당, 사무실, 병원, 미용실 등 상가 인테리어 내부 철거
+- [아파트/주택철거](https://www.namjindemo.com/business/residential): 아파트, 주택, 빌라 등 주거공간 내부 철거
+- [폐기물처리](https://www.namjindemo.com/business/waste): 철거 후 발생하는 건축·생활 폐기물 분리·수거·운반·처리
+- [원상복구공사](https://www.namjindemo.com/business/restoration): 임대차 종료 시 손상된 공간을 원래 상태로 복구하는 공사
+
+## 회사 정보
+
+- [회사소개](https://www.namjindemo.com/company/introduce): 2014년 설립 이후 회사 연혁과 전문성 소개
+- [현장 소개](https://www.namjindemo.com/company/our-work): 남진철거가 진행한 시공 현장 소개
+- [폐업 정부 지원 안내](https://www.namjindemo.com/company/support): 소상공인 폐업 점포 철거비 최대 600만원 정부 지원 제도 안내 및 신청 자격
+
+## 시공사례
+
+- [상가 내부 철거 시공사례](https://www.namjindemo.com/portfolio/commercial): 상가 철거 전/후 사진
+- [아파트/주택 내부 철거 시공사례](https://www.namjindemo.com/portfolio/residential): 주거공간 철거 전/후 사진
+- [폐기물처리 시공사례](https://www.namjindemo.com/portfolio/waste): 폐기물 처리 현장 사진
+- [원상복구공사 시공사례](https://www.namjindemo.com/portfolio/restoration): 원상복구 공사 전/후 사진
+
+## 문의
+
+- [견적문의](https://www.namjindemo.com/inquire): 전화(010-4691-7723) 또는 온라인 양식으로 무료 견적 신청
+
+## Optional
+
+- [robots.txt](https://www.namjindemo.com/robots.txt): 크롤러 접근 정책
+- [sitemap.xml](https://www.namjindemo.com/sitemap.xml): 전체 페이지 목록

@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import CategoryBanner from "@/components/CategoryBanner";
 import InquireCommon from "@/components/InquireCommon";
 import Process from "@/components/Process";
 import Service from "@/components/Service";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+    title: "폐업 정부 지원 안내",
+    description: "소상공인 폐업 시 최대 600만원 점포 철거비 정부 지원. 남진철거가 서류 작성부터 제출까지 원스톱으로 도와드립니다.",
+};
 
 const supportData = [
     {
